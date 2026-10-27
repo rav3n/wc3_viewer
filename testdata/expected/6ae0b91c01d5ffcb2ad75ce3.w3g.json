@@ -1,0 +1,360 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0b91c01d5ffcb2ad75ce3: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0b91c01d5ffcb2ad75ce3.w3g",
+  "fileSize": 206992,
+  "sha256": "3dc65e7bbfe956ab755881bf3740337c9fd78b8913b8458d1f9dda4d8864d561",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 855511,
+  "gameTimeSumMs": 855511,
+  "matchEndMs": 808470,
+  "gameName": "w3c-20-C7hz7ZTh14",
+  "map": {
+    "path": "maps\\W3Champions\\4_w3c_260919_1153_NorthernIsles_v1.3.w3x",
+    "name": "NorthernIsles_v1.3",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "霸氣側漏#3774",
+      "team": 0,
+      "color": 7,
+      "raceFlag": "0x01",
+      "race": "HUMAN",
+      "raceResolved": "HUMAN",
+      "commandBlocks": 1796,
+      "actionCounts": {
+        "0x10": 97,
+        "0x11": 21,
+        "0x12": 486,
+        "0x13": 4,
+        "0x14": 8,
+        "0x16": 545,
+        "0x17": 35,
+        "0x18": 404,
+        "0x19": 478,
+        "0x1a": 478,
+        "0x1b": 3545,
+        "0x61": 1,
+        "0x66": 5,
+        "0x67": 33,
+        "0x77": 1,
+        "0x7a": 417
+      },
+      "apmW3gjs": {
+        "countedActions": 1416,
+        "lastCommandBlockMs": 807271,
+        "apm": 105
+      },
+      "heroes": [
+        {
+          "id": "Hamg",
+          "firstOrderMs": 67261,
+          "firstSkillMs": 125131,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Hmkg",
+          "firstOrderMs": 519211,
+          "firstSkillMs": 578941,
+          "skillOrders": 1,
+          "skillsLearned": 1
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5491,
+          "id": "halt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 13351,
+          "id": "hbar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22380,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 34111,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 49711,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 58621,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 63211,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67261,
+          "id": "Hamg",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67291,
+          "id": "Hamg",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67321,
+          "id": "Hamg",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74791,
+          "id": "hfoo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74851,
+          "id": "hfoo",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 81
+    },
+    {
+      "pid": 2,
+      "name": "cost231#3778",
+      "team": 1,
+      "color": 1,
+      "raceFlag": "0x01",
+      "race": "HUMAN",
+      "raceResolved": "HUMAN",
+      "commandBlocks": 2201,
+      "actionCounts": {
+        "0x10": 59,
+        "0x11": 18,
+        "0x12": 1378,
+        "0x14": 53,
+        "0x16": 385,
+        "0x17": 76,
+        "0x18": 190,
+        "0x19": 357,
+        "0x1a": 357,
+        "0x1b": 1099,
+        "0x1e": 1,
+        "0x66": 5,
+        "0x67": 19,
+        "0x77": 1,
+        "0x7a": 156
+      },
+      "apmW3gjs": {
+        "countedActions": 2035,
+        "lastCommandBlockMs": 806550,
+        "apm": 151
+      },
+      "heroes": [
+        {
+          "id": "Hmkg",
+          "firstOrderMs": 66991,
+          "firstSkillMs": 281611,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Npbm",
+          "firstOrderMs": 320011,
+          "firstSkillMs": 335161,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 2371,
+          "id": "halt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 3361,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 6781,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 11521,
+          "id": "hbar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 17971,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 33481,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 46771,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 50760,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 66991,
+          "id": "Hmkg",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68191,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73351,
+          "id": "hfoo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 83101,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 89971,
+          "id": "hwtw",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 93391,
+          "id": "hfoo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 100710,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 61
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 808351,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 808470,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 582,
+    "commandBlocksExact": 3997,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0b91c01d5ffcb2ad75ce3",
+  "apiWinnerName": "霸氣側漏#3774",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0b91c01d5ffcb2ad75ce3.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "note: hero 霸氣側漏#3774 Hamg skills 4 < api level 5 (неизрасходованные очки)",
+      "note: hero 霸氣側漏#3774 Hmkg skills 1 < api level 2 (неизрасходованные очки)",
+      "duration: header 855.5 s, matchEnd 808.47 s vs api 1090 s (delta header -234.5 s)"
+    ],
+    "apiDurationInSeconds": 1090,
+    "apiMapName": "Northern Isles"
+  }
+}

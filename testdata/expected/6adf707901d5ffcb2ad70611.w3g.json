@@ -1,0 +1,359 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6adf707901d5ffcb2ad70611: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6adf707901d5ffcb2ad70611.w3g",
+  "fileSize": 328372,
+  "sha256": "1ccc99ec1f0556c2a014de0b775581ee750f90faf89a9a4a6d617828240818f4",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1434510,
+  "gameTimeSumMs": 1434510,
+  "matchEndMs": 1385910,
+  "gameName": "w3c-20-iMSWUkLzau",
+  "map": {
+    "path": "maps\\W3Champions\\1075_w3c_260919_1153_Springtime_v1.4.w3x",
+    "name": "Springtime_v1.4",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "Nexus#26401",
+      "team": 0,
+      "color": 6,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 2452,
+      "actionCounts": {
+        "0x10": 180,
+        "0x11": 25,
+        "0x12": 1010,
+        "0x13": 10,
+        "0x14": 5,
+        "0x16": 636,
+        "0x17": 37,
+        "0x18": 458,
+        "0x19": 638,
+        "0x1a": 638,
+        "0x1b": 3057,
+        "0x61": 1,
+        "0x66": 15,
+        "0x67": 24,
+        "0x77": 1,
+        "0x7a": 471
+      },
+      "apmW3gjs": {
+        "countedActions": 2141,
+        "lastCommandBlockMs": 1385371,
+        "apm": 93
+      },
+      "heroes": [
+        {
+          "id": "Udea",
+          "firstOrderMs": 73171,
+          "firstSkillMs": 141841,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 528901,
+          "firstSkillMs": 605251,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Nngs",
+          "firstOrderMs": 696301,
+          "firstSkillMs": 698011,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 2431,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8461,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22861,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31291,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31501,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 46860,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 65191,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 68041,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68281,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73171,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73201,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73231,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73261,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73291,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 123
+    },
+    {
+      "pid": 2,
+      "name": "Lucifer#28147",
+      "team": 1,
+      "color": 2,
+      "raceFlag": "0x20",
+      "race": "RANDOM",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 1363,
+      "actionCounts": {
+        "0x10": 78,
+        "0x11": 17,
+        "0x12": 515,
+        "0x13": 2,
+        "0x14": 2,
+        "0x16": 591,
+        "0x17": 30,
+        "0x18": 202,
+        "0x19": 361,
+        "0x1a": 361,
+        "0x1b": 2185,
+        "0x1e": 3,
+        "0x66": 6,
+        "0x67": 19,
+        "0x77": 1,
+        "0x7a": 163
+      },
+      "apmW3gjs": {
+        "countedActions": 1207,
+        "lastCommandBlockMs": 1382161,
+        "apm": 52
+      },
+      "heroes": [
+        {
+          "id": "Edem",
+          "firstOrderMs": 68761,
+          "firstSkillMs": 185761,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5971,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 10861,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 30811,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 32101,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 41311,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 61921,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68761,
+          "id": "Edem",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 78721,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 90211,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 96421,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 106291,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 120781,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 140311,
+          "id": "edob",
+          "type": "build",
+          "action": "0x11"
+        }
+      ],
+      "buildOrderTotal": 82
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1385671,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1385910,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 572,
+    "commandBlocksExact": 3815,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6adf707901d5ffcb2ad70611",
+  "apiWinnerName": "Nexus#26401",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6adf707901d5ffcb2ad70611.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 1434.5 s, matchEnd 1385.91 s vs api 3601 s (delta header -2166.5 s)"
+    ],
+    "apiDurationInSeconds": 3601,
+    "apiMapName": "Springtime"
+  }
+}

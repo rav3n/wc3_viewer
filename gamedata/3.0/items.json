@@ -1,0 +1,4204 @@
+{
+ "schemaVersion": 1,
+ "patch": "3.0.1",
+ "source": "Liquipedia Warcraft Wiki, https://liquipedia.net/warcraft/",
+ "license": "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/",
+ "count": 142,
+ "entities": [
+  {
+   "id": "afac",
+   "idSource": "w3gjs:name",
+   "name": "Alleria's Flute of Accuracy",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Alleria's Flute of Accuracy",
+    "revid": 866016,
+    "url": "https://liquipedia.net/warcraft/Alleria's_Flute_of_Accuracy"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ajen",
+   "idSource": "w3gjs:name",
+   "name": "Ancient Janggo of Endurance",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ancient Janggo of Endurance",
+    "revid": 866013,
+    "url": "https://liquipedia.net/warcraft/Ancient_Janggo_of_Endurance"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "ankh",
+   "idSource": "w3gjs:name",
+   "name": "Ankh of Reincarnation",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ankh of Reincarnation",
+    "revid": 964214,
+    "url": "https://liquipedia.net/warcraft/Ankh_of_Reincarnation"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "belv",
+   "idSource": "w3gjs:name",
+   "name": "Boots of Quel'Thalas +6",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Boots of Quel'Thalas +6",
+    "revid": 33728,
+    "url": "https://liquipedia.net/warcraft/Boots_of_Quel'Thalas_+6"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "bgst",
+   "idSource": "w3gjs:name",
+   "name": "Belt of Giant Strength +6",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Belt of Giant Strength +6",
+    "revid": 33727,
+    "url": "https://liquipedia.net/warcraft/Belt_of_Giant_Strength_+6"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "brac",
+   "idSource": "w3gjs:name",
+   "name": "Runed Bracers",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Runed Bracers",
+    "revid": 1018505,
+    "url": "https://liquipedia.net/warcraft/Runed_Bracers"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "bspd",
+   "idSource": "w3gjs:name",
+   "name": "Boots of Speed",
+   "race": null,
+   "type": "item",
+   "goldCost": 250,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 2,
+   "stockStartSec": 220,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Boots of Speed",
+    "revid": 888788,
+    "url": "https://liquipedia.net/warcraft/Boots_of_Speed"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ccmd",
+   "idSource": "w3gjs:name",
+   "name": "Scepter of Mastery",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scepter of Mastery",
+    "revid": 947320,
+    "url": "https://liquipedia.net/warcraft/Scepter_of_Mastery"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ciri",
+   "idSource": "w3gjs:name",
+   "name": "Robe of the Magi +6",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Robe of the Magi +6",
+    "revid": 33729,
+    "url": "https://liquipedia.net/warcraft/Robe_of_the_Magi_+6"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ckng",
+   "idSource": "w3gjs:name",
+   "name": "Crown of Kings +5",
+   "race": null,
+   "type": "item",
+   "goldCost": 1000,
+   "lumberCost": null,
+   "level": 8,
+   "itemClass": "a",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Crown of Kings +5",
+    "revid": 35347,
+    "url": "https://liquipedia.net/warcraft/Crown_of_Kings_+5"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "clfm",
+   "idSource": "w3gjs:name",
+   "name": "Cloak of Flames",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Cloak of Flames",
+    "revid": 49128,
+    "url": "https://liquipedia.net/warcraft/Cloak_of_Flames"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "clsd",
+   "idSource": "w3gjs:name",
+   "name": "Cloak of Shadows",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Cloak of Shadows",
+    "revid": 284551,
+    "url": "https://liquipedia.net/warcraft/Cloak_of_Shadows"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "cnob",
+   "idSource": "w3gjs:name",
+   "name": "Circlet of Nobility",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Circlet of Nobility",
+    "revid": 927192,
+    "url": "https://liquipedia.net/warcraft/Circlet_of_Nobility"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "crys",
+   "idSource": "w3gjs:name",
+   "name": "Crystal Ball",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "c",
+   "charges": 3,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Crystal Ball",
+    "revid": 887133,
+    "url": "https://liquipedia.net/warcraft/Crystal_Ball"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "desc",
+   "idSource": "w3gjs:name",
+   "name": "Kelen's Dagger of Escape",
+   "race": null,
+   "type": "item",
+   "goldCost": 800,
+   "lumberCost": null,
+   "level": 7,
+   "itemClass": "a",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Kelen's Dagger of Escape",
+    "revid": 308353,
+    "url": "https://liquipedia.net/warcraft/Kelen's_Dagger_of_Escape"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "dust",
+   "idSource": "w3gjs:name",
+   "name": "Dust of Appearance",
+   "race": null,
+   "type": "item",
+   "goldCost": 75,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 2,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Dust of Appearance",
+    "revid": 977546,
+    "url": "https://liquipedia.net/warcraft/Dust_of_Appearance"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    },
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    },
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tier 1",
+     "id": null
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "evtl",
+   "idSource": "w3gjs:name",
+   "name": "Talisman of Evasion",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Talisman of Evasion",
+    "revid": 295374,
+    "url": "https://liquipedia.net/warcraft/Talisman_of_Evasion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "fgdg",
+   "idSource": "w3gjs:name",
+   "name": "Demonic Figurine",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Demonic Figurine",
+    "revid": 977996,
+    "url": "https://liquipedia.net/warcraft/Demonic_Figurine"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "fgfh",
+   "idSource": "w3gjs:name",
+   "name": "Spiked Collar",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Spiked Collar",
+    "revid": 977992,
+    "url": "https://liquipedia.net/warcraft/Spiked_Collar"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "fgrd",
+   "idSource": "w3gjs:name",
+   "name": "Red Drake Egg",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "m",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Red Drake Egg",
+    "revid": 854270,
+    "url": "https://liquipedia.net/warcraft/Red_Drake_Egg"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "fgrg",
+   "idSource": "w3gjs:name",
+   "name": "Stone Token",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Stone Token",
+    "revid": 977991,
+    "url": "https://liquipedia.net/warcraft/Stone_Token"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "fgsk",
+   "idSource": "w3gjs:name",
+   "name": "Book of the Dead",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Book of the Dead",
+    "revid": 297928,
+    "url": "https://liquipedia.net/warcraft/Book_of_the_Dead"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "gcel",
+   "idSource": "w3gjs:name",
+   "name": "Gloves of Haste",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Gloves of Haste",
+    "revid": 924635,
+    "url": "https://liquipedia.net/warcraft/Gloves_of_Haste"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "gobm",
+   "idSource": "w3gjs:name",
+   "name": "Goblin Land Mines",
+   "race": null,
+   "type": "item",
+   "goldCost": 225,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "m",
+   "charges": 3,
+   "stock": 3,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Goblin Land Mines",
+    "revid": 284479,
+    "url": "https://liquipedia.net/warcraft/Goblin_Land_Mines"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "gold",
+   "idSource": "w3gjs:name",
+   "name": "Gold Coins",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Gold Coins",
+    "revid": 1010213,
+    "url": "https://liquipedia.net/warcraft/Gold_Coins"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "hcun",
+   "idSource": "w3gjs:name",
+   "name": "Hood of Cunning",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Hood of Cunning",
+    "revid": 432064,
+    "url": "https://liquipedia.net/warcraft/Hood_of_Cunning"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "hlst",
+   "idSource": "w3gjs:name",
+   "name": "Health Stone",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Health Stone",
+    "revid": 926560,
+    "url": "https://liquipedia.net/warcraft/Health_Stone"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "hslv",
+   "idSource": "w3gjs:name",
+   "name": "Healing Salve",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 3,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Healing Salve",
+    "revid": 1025025,
+    "url": "https://liquipedia.net/warcraft/Healing_Salve"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "hval",
+   "idSource": "w3gjs:name",
+   "name": "Helm of Valor",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Helm of Valor",
+    "revid": 432059,
+    "url": "https://liquipedia.net/warcraft/Helm_of_Valor"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "infs",
+   "idSource": "w3gjs:name",
+   "name": "Inferno Stone",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 7,
+   "itemClass": "a",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Inferno Stone",
+    "revid": 977552,
+    "url": "https://liquipedia.net/warcraft/Inferno_Stone"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "kpin",
+   "idSource": "w3gjs:name",
+   "name": "Khadgar's Pipe of Insight",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Khadgar's Pipe of Insight",
+    "revid": 853643,
+    "url": "https://liquipedia.net/warcraft/Khadgar's_Pipe_of_Insight"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "lgdh",
+   "idSource": "w3gjs:name",
+   "name": "Legion Doom-Horn",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Legion Doom-Horn",
+    "revid": 284538,
+    "url": "https://liquipedia.net/warcraft/Legion_Doom-Horn"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "lhst",
+   "idSource": "w3gjs:name",
+   "name": "The Lion Horn of Stormwind",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "The Lion Horn of Stormwind",
+    "revid": 866015,
+    "url": "https://liquipedia.net/warcraft/The_Lion_Horn_of_Stormwind"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "manh",
+   "idSource": "w3gjs:name",
+   "name": "Manual of Health",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Manual of Health",
+    "revid": 32171,
+    "url": "https://liquipedia.net/warcraft/Manual_of_Health"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "mcou",
+   "idSource": "w3gjs:name",
+   "name": "Medallion of Courage",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Medallion of Courage",
+    "revid": 432063,
+    "url": "https://liquipedia.net/warcraft/Medallion_of_Courage"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "mcri",
+   "idSource": "w3gjs:name",
+   "name": "Mechanical Critter",
+   "race": null,
+   "type": "item",
+   "goldCost": 50,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Mechanical Critter",
+    "revid": 977540,
+    "url": "https://liquipedia.net/warcraft/Mechanical_Critter"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "mnst",
+   "idSource": "w3gjs:name",
+   "name": "Mana Stone",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Mana Stone",
+    "revid": 964433,
+    "url": "https://liquipedia.net/warcraft/Mana_Stone"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "modt",
+   "idSource": "w3gjs:name",
+   "name": "Mask of Death",
+   "race": null,
+   "type": "item",
+   "goldCost": 1000,
+   "lumberCost": null,
+   "level": 8,
+   "itemClass": "a",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Mask of Death",
+    "revid": 888650,
+    "url": "https://liquipedia.net/warcraft/Mask_of_Death"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "moon",
+   "idSource": "w3gjs:name",
+   "name": "Moonstone",
+   "race": null,
+   "type": "item",
+   "goldCost": 50,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 90,
+   "source": {
+    "page": "Moonstone",
+    "revid": 977542,
+    "url": "https://liquipedia.net/warcraft/Moonstone"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "nspi",
+   "idSource": "w3gjs:name",
+   "name": "Necklace of Spell Immunity",
+   "race": null,
+   "type": "item",
+   "goldCost": 1000,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Necklace of Spell Immunity",
+    "revid": 284442,
+    "url": "https://liquipedia.net/warcraft/Necklace_of_Spell_Immunity"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ocor",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Corruption",
+   "race": null,
+   "type": "item",
+   "goldCost": 375,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Corruption",
+    "revid": 977529,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Corruption"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Black Citadel",
+     "id": "unp2"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "odef",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Darkness",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Orb of Darkness",
+    "revid": 975045,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Darkness"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ofir",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Fire",
+   "race": null,
+   "type": "item",
+   "goldCost": 250,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "m",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Fire",
+    "revid": 975006,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Fire"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ofro",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Frost",
+   "race": null,
+   "type": "item",
+   "goldCost": 800,
+   "lumberCost": null,
+   "level": 7,
+   "itemClass": "a",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Orb of Frost",
+    "revid": 854265,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Frost"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "oli2",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Lightning",
+   "race": null,
+   "type": "item",
+   "goldCost": 375,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Lightning",
+    "revid": 975009,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Lightning"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Fortress",
+     "id": "ofrt"
+    }
+   ],
+   "tier": 3,
+   "sharedNameIds": [
+    "olig",
+    "oli2"
+   ]
+  },
+  {
+   "id": "olig",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Lightning",
+   "race": null,
+   "type": "item",
+   "goldCost": 375,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Lightning",
+    "revid": 975009,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Lightning"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Fortress",
+     "id": "ofrt"
+    }
+   ],
+   "tier": 3,
+   "sharedNameIds": [
+    "olig",
+    "oli2"
+   ]
+  },
+  {
+   "id": "oslo",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Slow",
+   "race": null,
+   "type": "item",
+   "goldCost": 325,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Slow",
+    "revid": 975007,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Slow"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Castle",
+     "id": "hcas"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "oven",
+   "idSource": "w3gjs:name",
+   "name": "Orb of Venom",
+   "race": null,
+   "type": "item",
+   "goldCost": 325,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Orb of Venom",
+    "revid": 1024547,
+    "url": "https://liquipedia.net/warcraft/Orb_of_Venom"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tree of Eternity",
+     "id": "etoe"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "pams",
+   "idSource": "w3gjs:name",
+   "name": "Anti-magic Potion",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Anti-magic Potion",
+    "revid": 885731,
+    "url": "https://liquipedia.net/warcraft/Anti-magic_Potion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tree of Eternity",
+     "id": "etoe"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "pdiv",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Divinity",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Potion of Divinity",
+    "revid": 311302,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Divinity"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "penr",
+   "idSource": "w3gjs:name",
+   "name": "Pendant of Energy",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Pendant of Energy",
+    "revid": 361072,
+    "url": "https://liquipedia.net/warcraft/Pendant_of_Energy"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "pghe",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Greater Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Potion of Greater Healing",
+    "revid": 926547,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Greater_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "pgma",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Greater Mana",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Potion of Greater Mana",
+    "revid": 854266,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Greater_Mana"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "phea",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 3,
+   "stockStartSec": null,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Potion of Healing",
+    "revid": 926533,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    },
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    },
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    },
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tier 2",
+     "id": null
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "pinv",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Invisibility",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Potion of Invisibility",
+    "revid": 993830,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Invisibility"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "plcl",
+   "idSource": "w3gjs:name",
+   "name": "Lesser Clarity Potion",
+   "race": null,
+   "type": "item",
+   "goldCost": 70,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 30,
+   "source": {
+    "page": "Lesser Clarity Potion",
+    "revid": 977545,
+    "url": "https://liquipedia.net/warcraft/Lesser_Clarity_Potion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    },
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    },
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tier 1",
+     "id": null
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "pman",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Mana",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": null,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Potion of Mana",
+    "revid": 885707,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Mana"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    },
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    },
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    },
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tier 2",
+     "id": null
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "pmna",
+   "idSource": "w3gjs:name",
+   "name": "Pendant of Mana",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Pendant of Mana",
+    "revid": 1053485,
+    "url": "https://liquipedia.net/warcraft/Pendant_of_Mana"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "pnvl",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Lesser Invulnerability",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Potion of Lesser Invulnerability",
+    "revid": 885717,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Lesser_Invulnerability"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "pnvu",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Invulnerability",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Potion of Invulnerability",
+    "revid": 311301,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Invulnerability"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "pres",
+   "idSource": "w3gjs:name",
+   "name": "Potion of Restoration",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Potion of Restoration",
+    "revid": 284484,
+    "url": "https://liquipedia.net/warcraft/Potion_of_Restoration"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "prvt",
+   "idSource": "w3gjs:name",
+   "name": "Periapt of Vitality",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Periapt of Vitality",
+    "revid": 886811,
+    "url": "https://liquipedia.net/warcraft/Periapt_of_Vitality"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rag1",
+   "idSource": "w3gjs:name",
+   "name": "Slippers of Agility +3",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Slippers of Agility +3",
+    "revid": 33712,
+    "url": "https://liquipedia.net/warcraft/Slippers_of_Agility_+3"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ram1",
+   "idSource": "w3gjs:name",
+   "name": "Ring of the Archmagi",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of the Archmagi",
+    "revid": 888762,
+    "url": "https://liquipedia.net/warcraft/Ring_of_the_Archmagi"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "sharedNameIds": [
+    "ram1",
+    "ram2",
+    "ram3",
+    "ram4"
+   ]
+  },
+  {
+   "id": "ram2",
+   "idSource": "w3gjs:name",
+   "name": "Ring of the Archmagi",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of the Archmagi",
+    "revid": 888762,
+    "url": "https://liquipedia.net/warcraft/Ring_of_the_Archmagi"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "sharedNameIds": [
+    "ram1",
+    "ram2",
+    "ram3",
+    "ram4"
+   ]
+  },
+  {
+   "id": "ram3",
+   "idSource": "w3gjs:name",
+   "name": "Ring of the Archmagi",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of the Archmagi",
+    "revid": 888762,
+    "url": "https://liquipedia.net/warcraft/Ring_of_the_Archmagi"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "sharedNameIds": [
+    "ram1",
+    "ram2",
+    "ram3",
+    "ram4"
+   ]
+  },
+  {
+   "id": "ram4",
+   "idSource": "w3gjs:name",
+   "name": "Ring of the Archmagi",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of the Archmagi",
+    "revid": 888762,
+    "url": "https://liquipedia.net/warcraft/Ring_of_the_Archmagi"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "sharedNameIds": [
+    "ram1",
+    "ram2",
+    "ram3",
+    "ram4"
+   ]
+  },
+  {
+   "id": "rat6",
+   "idSource": "w3gjs:name",
+   "name": "Claws of Attack +6",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +6",
+    "revid": 432065,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+6"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rat9",
+   "idSource": "w3gjs:name",
+   "name": "Claws of Attack +9",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +9",
+    "revid": 853638,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+9"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ratc",
+   "idSource": "w3gjs:name",
+   "name": "Claws of Attack +12",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +12",
+    "revid": 34084,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+12"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ratf",
+   "idSource": "w3gjs:name",
+   "name": "Claws of Attack +15",
+   "race": null,
+   "type": "item",
+   "goldCost": 800,
+   "lumberCost": null,
+   "level": 7,
+   "itemClass": "a",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +15",
+    "revid": 58960,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+15"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rde1",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Protection +2",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Protection +2",
+    "revid": 854272,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Protection_+2"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rde2",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Protection +3",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Protection +3",
+    "revid": 975039,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Protection_+3"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rde3",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Protection +4",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Protection +4",
+    "revid": 975038,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Protection_+4"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rde4",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Protection +5",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Protection +5",
+    "revid": 897496,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Protection_+5"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rej1",
+   "idSource": "w3gjs:name",
+   "name": "Minor Replenishment Potion",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "m",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Minor Replenishment Potion",
+    "revid": 944197,
+    "url": "https://liquipedia.net/warcraft/Minor_Replenishment_Potion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rej3",
+   "idSource": "w3gjs:name",
+   "name": "Replenishment Potion",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Replenishment Potion",
+    "revid": 284496,
+    "url": "https://liquipedia.net/warcraft/Replenishment_Potion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rhth",
+   "idSource": "w3gjs:name",
+   "name": "Khadgar's Gem of Health",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Khadgar's Gem of Health",
+    "revid": 34111,
+    "url": "https://liquipedia.net/warcraft/Khadgar's_Gem_of_Health"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rin1",
+   "idSource": "w3gjs:name",
+   "name": "Mantle of Intelligence +3",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Mantle of Intelligence +3",
+    "revid": 33711,
+    "url": "https://liquipedia.net/warcraft/Mantle_of_Intelligence_+3"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rlif",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Regeneration",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Regeneration",
+    "revid": 33724,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Regeneration"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rnec",
+   "idSource": "w3gjs:name",
+   "name": "Rod of Necromancy",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 4,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Rod of Necromancy",
+    "revid": 977543,
+    "url": "https://liquipedia.net/warcraft/Rod_of_Necromancy"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "rnsp",
+   "idSource": "w3gjs:name",
+   "name": "Ring of Superiority",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ring of Superiority",
+    "revid": 854273,
+    "url": "https://liquipedia.net/warcraft/Ring_of_Superiority"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rst1",
+   "idSource": "w3gjs:name",
+   "name": "Gauntlets of Ogre Strength +3",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Gauntlets of Ogre Strength +3",
+    "revid": 33710,
+    "url": "https://liquipedia.net/warcraft/Gauntlets_of_Ogre_Strength_+3"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rwat",
+   "idSource": "w3gjs:name",
+   "name": "Rune of the Watcher",
+   "race": null,
+   "type": "item",
+   "goldCost": 75,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of the Watcher",
+    "revid": 58997,
+    "url": "https://liquipedia.net/warcraft/Rune_of_the_Watcher"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "rwiz",
+   "idSource": "w3gjs:name",
+   "name": "Sobi Mask",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Sobi Mask",
+    "revid": 964434,
+    "url": "https://liquipedia.net/warcraft/Sobi_Mask"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "sand",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Animate Dead",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "m",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scroll of Animate Dead",
+    "revid": 854274,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Animate_Dead"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "sbch",
+   "idSource": "w3gjs:name",
+   "name": "Scourge Bone Chimes",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scourge Bone Chimes",
+    "revid": 600446,
+    "url": "https://liquipedia.net/warcraft/Scourge_Bone_Chimes"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "shar",
+   "idSource": "w3gjs:name",
+   "name": "Ice Shard",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Ice Shard",
+    "revid": 284504,
+    "url": "https://liquipedia.net/warcraft/Ice_Shard"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "shas",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Speed",
+   "race": null,
+   "type": "item",
+   "goldCost": 70,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 60,
+   "source": {
+    "page": "Scroll of Speed",
+    "revid": 977990,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Speed"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "shea",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 250,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Scroll of Healing",
+    "revid": 926526,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "skul",
+   "idSource": "w3gjs:name",
+   "name": "Sacrificial Skull",
+   "race": null,
+   "type": "item",
+   "goldCost": 50,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 45,
+   "source": {
+    "page": "Sacrificial Skull",
+    "revid": 977544,
+    "url": "https://liquipedia.net/warcraft/Sacrificial_Skull"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "spre",
+   "idSource": "w3gjs:name",
+   "name": "Staff of Preservation",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": null,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Staff of Preservation",
+    "revid": 977988,
+    "url": "https://liquipedia.net/warcraft/Staff_of_Preservation"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tree of Ages",
+     "id": "etoa"
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "spro",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Protection",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Scroll of Protection",
+    "revid": 885715,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Protection"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "spsh",
+   "idSource": "w3gjs:name",
+   "name": "Amulet of Spell Shield",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Amulet of Spell Shield",
+    "revid": 284539,
+    "url": "https://liquipedia.net/warcraft/Amulet_of_Spell_Shield"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "sreg",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Regeneration",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 90,
+   "source": {
+    "page": "Scroll of Regeneration",
+    "revid": 977541,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Regeneration"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": "sres",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Restoration",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scroll of Restoration",
+    "revid": 358897,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Restoration"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "sror",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of the Beast",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scroll of the Beast",
+    "revid": 291972,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_the_Beast"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "srrc",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Resurrection",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "m",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scroll of Resurrection",
+    "revid": 854275,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Resurrection"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ssan",
+   "idSource": "w3gjs:name",
+   "name": "Staff of Sanctuary",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Staff of Sanctuary",
+    "revid": 978084,
+    "url": "https://liquipedia.net/warcraft/Staff_of_Sanctuary"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Castle",
+     "id": "hcas"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "ssil",
+   "idSource": "w3gjs:name",
+   "name": "Staff of Silence",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Staff of Silence",
+    "revid": 910135,
+    "url": "https://liquipedia.net/warcraft/Staff_of_Silence"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "stel",
+   "idSource": "w3gjs:name",
+   "name": "Staff of Teleportation",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": null,
+   "stock": 2,
+   "stockStartSec": 220,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Staff of Teleportation",
+    "revid": 886807,
+    "url": "https://liquipedia.net/warcraft/Staff_of_Teleportation"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "stwp",
+   "idSource": "w3gjs:name",
+   "name": "Scroll of Town Portal",
+   "race": null,
+   "type": "item",
+   "goldCost": 325,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Scroll of Town Portal",
+    "revid": 1022009,
+    "url": "https://liquipedia.net/warcraft/Scroll_of_Town_Portal"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    },
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    },
+    {
+     "name": "Ancient of Wonders",
+     "id": "eden"
+    },
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    },
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tier 2",
+     "id": null
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "tdex",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Agility",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Agility",
+    "revid": 35210,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Agility"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tdx2",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Agility +2",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Agility +2",
+    "revid": 45607,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Agility_+2"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tels",
+   "idSource": "w3gjs:name",
+   "name": "Goblin Night Scope",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "m",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Goblin Night Scope",
+    "revid": 1009870,
+    "url": "https://liquipedia.net/warcraft/Goblin_Night_Scope"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "texp",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Experience",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Experience",
+    "revid": 284468,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Experience"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tgrh",
+   "idSource": "w3gjs:name",
+   "name": "Tiny Great Hall",
+   "race": null,
+   "type": "item",
+   "goldCost": 600,
+   "lumberCost": 185,
+   "level": 3,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Tiny Great Hall",
+    "revid": 926537,
+    "url": "https://liquipedia.net/warcraft/Tiny_Great_Hall"
+   },
+   "soldFrom": [
+    {
+     "name": "Voodoo Lounge",
+     "id": "ovln"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Fortress",
+     "id": "ofrt"
+    }
+   ],
+   "tier": 3
+  },
+  {
+   "id": "tgxp",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Greater Experience",
+   "race": null,
+   "type": "item",
+   "goldCost": 1000,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Greater Experience",
+    "revid": 284440,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Greater_Experience"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "thdm",
+   "idSource": "w3gjs:name",
+   "name": "Thunderlizard Diamond",
+   "race": null,
+   "type": "item",
+   "goldCost": 1190,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Thunderlizard Diamond",
+    "revid": 1010209,
+    "url": "https://liquipedia.net/warcraft/Thunderlizard_Diamond"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tin2",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Intelligence +2",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Intelligence +2",
+    "revid": 45608,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Intelligence_+2"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tint",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Intelligence",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Intelligence",
+    "revid": 35211,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Intelligence"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tkno",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Power",
+   "race": null,
+   "type": "item",
+   "goldCost": 1250,
+   "lumberCost": null,
+   "level": 8,
+   "itemClass": "a",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Power",
+    "revid": 932408,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Power"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "totw",
+   "idSource": "w3gjs:name",
+   "name": "Talisman of the Wild",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "m",
+   "charges": 3,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Talisman of the Wild",
+    "revid": 854269,
+    "url": "https://liquipedia.net/warcraft/Talisman_of_the_Wild"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tpow",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Knowledge",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Knowledge",
+    "revid": 58957,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Knowledge"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tret",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Retraining",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": null,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 440,
+   "stockReplenishSec": 120,
+   "source": {
+    "page": "Tome of Retraining",
+    "revid": 1024935,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Retraining"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Goblin Merchant",
+     "id": "ngme"
+    }
+   ],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tsct",
+   "idSource": "w3gjs:name",
+   "name": "Ivory Tower",
+   "race": null,
+   "type": "item",
+   "goldCost": 40,
+   "lumberCost": 25,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 2,
+   "stockStartSec": 0,
+   "stockReplenishSec": 30,
+   "source": {
+    "page": "Ivory Tower",
+    "revid": 1029808,
+    "url": "https://liquipedia.net/warcraft/Ivory_Tower"
+   },
+   "soldFrom": [
+    {
+     "name": "Arcane Vault",
+     "id": "hvlt"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Keep",
+     "id": "hkee"
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "tst2",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Strength +2",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Strength +2",
+    "revid": 45609,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Strength_+2"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "tstr",
+   "idSource": "w3gjs:name",
+   "name": "Tome of Strength",
+   "race": null,
+   "type": "item",
+   "goldCost": null,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "w",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Tome of Strength",
+    "revid": 35209,
+    "url": "https://liquipedia.net/warcraft/Tome_of_Strength"
+   },
+   "nullFields": {
+    "goldCost": "field is empty on the Liquipedia page",
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "ward",
+   "idSource": "w3gjs:name",
+   "name": "Warsong Battle Drums",
+   "race": null,
+   "type": "item",
+   "goldCost": 500,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Warsong Battle Drums",
+    "revid": 562986,
+    "url": "https://liquipedia.net/warcraft/Warsong_Battle_Drums"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "wcyc",
+   "idSource": "w3gjs:name",
+   "name": "Wand of the Wind",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Wand of the Wind",
+    "revid": 432068,
+    "url": "https://liquipedia.net/warcraft/Wand_of_the_Wind"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "whwd",
+   "idSource": "w3gjs:name",
+   "name": "Healing Wards",
+   "race": null,
+   "type": "item",
+   "goldCost": 450,
+   "lumberCost": null,
+   "level": 4,
+   "itemClass": "c",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Healing Wards",
+    "revid": 975050,
+    "url": "https://liquipedia.net/warcraft/Healing_Wards"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "wild",
+   "idSource": "w3gjs:name",
+   "name": "Amulet of the Wild",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Amulet of the Wild",
+    "revid": 977995,
+    "url": "https://liquipedia.net/warcraft/Amulet_of_the_Wild"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "will",
+   "idSource": "w3gjs:name",
+   "name": "Wand of Illusion",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "c",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Wand of Illusion",
+    "revid": 931273,
+    "url": "https://liquipedia.net/warcraft/Wand_of_Illusion"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "wlsd",
+   "idSource": "w3gjs:name",
+   "name": "Wand of Lightning Shield",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Wand of Lightning Shield",
+    "revid": 888617,
+    "url": "https://liquipedia.net/warcraft/Wand_of_Lightning_Shield"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "wneg",
+   "idSource": "w3gjs:name",
+   "name": "Wand of Negation",
+   "race": null,
+   "type": "item",
+   "goldCost": 120,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "r",
+   "charges": 4,
+   "stock": 3,
+   "stockStartSec": 0,
+   "stockReplenishSec": 90,
+   "source": {
+    "page": "Wand of Negation",
+    "revid": 1049153,
+    "url": "https://liquipedia.net/warcraft/Wand_of_Negation"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Halls of the Dead",
+     "id": "unp1"
+    }
+   ],
+   "tier": 2
+  },
+  {
+   "id": "woms",
+   "idSource": "w3gjs:name",
+   "name": "Wand of Mana Stealing",
+   "race": null,
+   "type": "item",
+   "goldCost": 400,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "c",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Wand of Mana Stealing",
+    "revid": 978620,
+    "url": "https://liquipedia.net/warcraft/Wand_of_Mana_Stealing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": "wswd",
+   "idSource": "w3gjs:name",
+   "name": "Sentry Wards",
+   "race": null,
+   "type": "item",
+   "goldCost": 150,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "c",
+   "charges": 2,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Sentry Wards",
+    "revid": 295392,
+    "url": "https://liquipedia.net/warcraft/Sentry_Wards"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null,
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Blue Drake Egg",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Blue Drake Egg",
+    "revid": 977994,
+    "url": "https://liquipedia.net/warcraft/Blue_Drake_Egg"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Claws of Attack +4",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "m",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +4",
+    "revid": 886809,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+4"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Claws of Attack +5",
+   "race": null,
+   "type": "item",
+   "goldCost": 125,
+   "lumberCost": null,
+   "level": 2,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +5",
+    "revid": 886810,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+5"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Claws of Attack +8",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 3,
+   "itemClass": "p",
+   "charges": null,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Claws of Attack +8",
+    "revid": 853639,
+    "url": "https://liquipedia.net/warcraft/Claws_of_Attack_+8"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Engraved Scale",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Engraved Scale",
+    "revid": 977997,
+    "url": "https://liquipedia.net/warcraft/Engraved_Scale"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Idol of the Wild",
+   "race": null,
+   "type": "item",
+   "goldCost": 550,
+   "lumberCost": null,
+   "level": 5,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Idol of the Wild",
+    "revid": 977993,
+    "url": "https://liquipedia.net/warcraft/Idol_of_the_Wild"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Ritual Dagger",
+   "race": null,
+   "type": "item",
+   "goldCost": 75,
+   "lumberCost": null,
+   "level": 1,
+   "itemClass": "r",
+   "charges": 1,
+   "stock": 1,
+   "stockStartSec": 0,
+   "stockReplenishSec": 75,
+   "source": {
+    "page": "Ritual Dagger",
+    "revid": 977530,
+    "url": "https://liquipedia.net/warcraft/Ritual_Dagger"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page"
+   },
+   "soldFrom": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "requirements": [
+    {
+     "name": "Tomb of Relics",
+     "id": "utom"
+    }
+   ],
+   "tier": 1
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Greater Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Greater Healing",
+    "revid": 58999,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Greater_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Greater Mana",
+   "race": null,
+   "type": "item",
+   "goldCost": 300,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Greater Mana",
+    "revid": 949653,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Greater_Mana"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Healing",
+    "revid": 58998,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Lesser Healing",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Lesser Healing",
+    "revid": 308423,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Lesser_Healing"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Mana",
+   "race": null,
+   "type": "item",
+   "goldCost": 100,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Mana",
+    "revid": 313006,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Mana"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Rebirth",
+   "race": null,
+   "type": "item",
+   "goldCost": 250,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Rebirth",
+    "revid": 59000,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Rebirth"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Rune of Speed",
+   "race": null,
+   "type": "item",
+   "goldCost": 200,
+   "lumberCost": null,
+   "level": 0,
+   "itemClass": "w",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Rune of Speed",
+    "revid": 945450,
+    "url": "https://liquipedia.net/warcraft/Rune_of_Speed"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  },
+  {
+   "id": null,
+   "idSource": null,
+   "name": "Scepter of Avarice",
+   "race": null,
+   "type": "item",
+   "goldCost": 700,
+   "lumberCost": null,
+   "level": 6,
+   "itemClass": "c",
+   "charges": 1,
+   "stock": null,
+   "stockStartSec": null,
+   "stockReplenishSec": null,
+   "source": {
+    "page": "Scepter of Avarice",
+    "revid": 358828,
+    "url": "https://liquipedia.net/warcraft/Scepter_of_Avarice"
+   },
+   "nullFields": {
+    "lumberCost": "field is empty on the Liquipedia page",
+    "soldFrom": "Infobox item has no 'soldfrom' value"
+   },
+   "soldFrom": [],
+   "requirements": [],
+   "tier": null
+  }
+ ]
+}

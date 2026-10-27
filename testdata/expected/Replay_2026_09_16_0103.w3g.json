@@ -1,0 +1,378 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6aa9c0a1e066667e29f4448a: players, race, heroes(set; skillsLearned<=level), map"
+    ]
+  },
+  "file": "Replay_2026_09_16_0103.w3g",
+  "fileSize": 367643,
+  "sha256": "e50449aeaff93c4699e49585799c655c9346f06f36fc4ab1400986193d62be2b",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7000,
+  "patch": "3.00",
+  "durationMs": 1153725,
+  "gameTimeSumMs": 1192711,
+  "matchEndMs": 1192711,
+  "gameName": "w3c-20-jYHYuxENX4-21692865",
+  "map": {
+    "path": "Maps/W3Champions\\5693_w3c_260915_0738_FadingAutumn_v1.3.w3m",
+    "name": "FadingAutumn_v1.3",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 0,
+  "players": [
+    {
+      "pid": 1,
+      "name": "RavenGG#21468",
+      "team": 0,
+      "color": 5,
+      "raceFlag": "0x02",
+      "race": "ORC",
+      "raceResolved": "ORC",
+      "commandBlocks": 5087,
+      "actionCounts": {
+        "0x10": 220,
+        "0x11": 67,
+        "0x12": 1812,
+        "0x13": 5,
+        "0x14": 14,
+        "0x16": 1180,
+        "0x17": 100,
+        "0x18": 1232,
+        "0x19": 1686,
+        "0x1a": 1686,
+        "0x1b": 5721,
+        "0x1e": 1,
+        "0x61": 7,
+        "0x66": 13,
+        "0x67": 21,
+        "0x69": 1,
+        "0x6a": 1,
+        "0x77": 1,
+        "0x7a": 976
+      },
+      "apmW3gjs": {
+        "countedActions": 4166,
+        "lastCommandBlockMs": 1189392,
+        "apm": 210
+      },
+      "heroes": [
+        {
+          "id": "Obla",
+          "firstOrderMs": 70021,
+          "firstSkillMs": 131280,
+          "skillOrders": 8,
+          "skillsLearned": 6
+        },
+        {
+          "id": "Oshd",
+          "firstOrderMs": 356611,
+          "firstSkillMs": 413820,
+          "skillOrders": 6,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 1801,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 2011,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5640,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 18360,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 27900,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34921,
+          "id": "ofor",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 49231,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 65671,
+          "id": "obar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 70021,
+          "id": "Obla",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76561,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 85470,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 102780,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 118831,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 124500,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 126871,
+          "id": "ohun",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 116
+    },
+    {
+      "pid": 2,
+      "name": "OldKyO#11490",
+      "team": 1,
+      "color": 1,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 4528,
+      "actionCounts": {
+        "0x01": 1,
+        "0x02": 1,
+        "0x10": 98,
+        "0x11": 77,
+        "0x12": 1294,
+        "0x13": 5,
+        "0x14": 37,
+        "0x16": 891,
+        "0x17": 66,
+        "0x18": 1381,
+        "0x19": 1347,
+        "0x1a": 1347,
+        "0x1b": 8040,
+        "0x61": 7,
+        "0x66": 9,
+        "0x67": 17,
+        "0x77": 1,
+        "0x7a": 869
+      },
+      "apmW3gjs": {
+        "countedActions": 3557,
+        "lastCommandBlockMs": 1183950,
+        "apm": 180
+      },
+      "heroes": [
+        {
+          "id": "Ekee",
+          "firstOrderMs": 71190,
+          "firstSkillMs": 134041,
+          "skillOrders": 6,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Nalc",
+          "firstOrderMs": 365670,
+          "firstSkillMs": 368311,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Emoo",
+          "firstOrderMs": 1004790,
+          "firstSkillMs": null,
+          "skillOrders": 0,
+          "skillsLearned": 0
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 2491,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 2610,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5731,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8491,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 12180,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 17610,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 24631,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 35910,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 42361,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 51361,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 58531,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71190,
+          "id": "Ekee",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76590,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 81091,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 85770,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 97
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1184581,
+      "pid": 2,
+      "reason": "0x01",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1184671,
+      "pid": 24,
+      "reason": "0x0c",
+      "result": "0x09"
+    },
+    {
+      "timeMs": 1192711,
+      "pid": 1,
+      "reason": "0x0c",
+      "result": "0x07"
+    }
+  ],
+  "winnerPid": null,
+  "chatMessages": 3,
+  "parse": {
+    "gameDataOffset": 437,
+    "commandBlocksExact": 9615,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6aa9c0a1e066667e29f4448a",
+  "apiWinnerName": "RavenGG#21468",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6aa9c0a1e066667e29f4448a.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "map"
+    ],
+    "notes": [
+      "note: hero OldKyO#11490 Emoo skills 0 < api level 1 (неизрасходованные очки)",
+      "winner: replay [] vs api ['RavenGG#21468']",
+      "duration: header 1153.7 s, matchEnd 1192.711 s vs api 1211 s (delta header -57.3 s)"
+    ],
+    "apiDurationInSeconds": 1211,
+    "apiMapName": "Fading Autumn"
+  }
+}

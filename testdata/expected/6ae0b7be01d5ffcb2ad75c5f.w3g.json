@@ -1,0 +1,351 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0b7be01d5ffcb2ad75c5f: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0b7be01d5ffcb2ad75c5f.w3g",
+  "fileSize": 110412,
+  "sha256": "4e2d404ae049e57a83e43e31acf038a0a50f52f8f241dd3adafb6117999d63c4",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 463433,
+  "gameTimeSumMs": 463433,
+  "matchEndMs": 414142,
+  "gameName": "w3c-20-ecpmHGhZmZ",
+  "map": {
+    "path": "maps\\W3Champions\\61_w3c_260919_1153_ShallowGrave_v1.5.w3x",
+    "name": "ShallowGrave_v1.5",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "Flypander#1582",
+      "team": 0,
+      "color": 5,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 1158,
+      "actionCounts": {
+        "0x10": 40,
+        "0x11": 6,
+        "0x12": 459,
+        "0x14": 3,
+        "0x16": 216,
+        "0x17": 44,
+        "0x18": 339,
+        "0x19": 327,
+        "0x1a": 327,
+        "0x1b": 873,
+        "0x61": 2,
+        "0x66": 4,
+        "0x67": 6,
+        "0x77": 1,
+        "0x7a": 157
+      },
+      "apmW3gjs": {
+        "countedActions": 1034,
+        "lastCommandBlockMs": 409043,
+        "apm": 152
+      },
+      "heroes": [
+        {
+          "id": "Edem",
+          "firstOrderMs": 68941,
+          "firstSkillMs": 197452,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 1081,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 1320,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 1531,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 6241,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 18300,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 25110,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 28591,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34471,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 43111,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68941,
+          "id": "Edem",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 70711,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76440,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 85942,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 87142,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 97343,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 38
+    },
+    {
+      "pid": 2,
+      "name": "AllenSGP#1775",
+      "team": 1,
+      "color": 6,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 1372,
+      "actionCounts": {
+        "0x10": 48,
+        "0x11": 17,
+        "0x12": 626,
+        "0x13": 3,
+        "0x14": 10,
+        "0x16": 286,
+        "0x17": 17,
+        "0x18": 360,
+        "0x19": 374,
+        "0x1a": 374,
+        "0x1b": 788,
+        "0x61": 1,
+        "0x66": 5,
+        "0x67": 13,
+        "0x77": 1,
+        "0x7a": 160
+      },
+      "apmW3gjs": {
+        "countedActions": 1258,
+        "lastCommandBlockMs": 414083,
+        "apm": 182
+      },
+      "heroes": [
+        {
+          "id": "Edem",
+          "firstOrderMs": 68161,
+          "firstSkillMs": 144952,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Nngs",
+          "firstOrderMs": 331043,
+          "firstSkillMs": 333743,
+          "skillOrders": 1,
+          "skillsLearned": 1
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 871,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 991,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 6091,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 16621,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 21210,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 28411,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 36301,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 47671,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 55680,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 60120,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68161,
+          "id": "Edem",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71491,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 81892,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 95093,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 99383,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 39
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 414053,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 414142,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 578,
+    "commandBlocksExact": 2530,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0b7be01d5ffcb2ad75c5f",
+  "apiWinnerName": "AllenSGP#1775",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0b7be01d5ffcb2ad75c5f.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 463.4 s, matchEnd 414.142 s vs api 441 s (delta header +22.4 s)"
+    ],
+    "apiDurationInSeconds": 441,
+    "apiMapName": "Shallow Grave"
+  }
+}

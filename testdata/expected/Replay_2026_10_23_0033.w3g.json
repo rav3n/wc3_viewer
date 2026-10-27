@@ -1,0 +1,372 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ada8143a49325c22434fc18: players, race, heroes(set; skillsLearned<=level), map"
+    ]
+  },
+  "file": "Replay_2026_10_23_0033.w3g",
+  "fileSize": 344898,
+  "sha256": "5a4ae626539eff86b4bc29cfd23728630788a3c80e3629e156befa2ca88ec0ac",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1138200,
+  "gameTimeSumMs": 1138201,
+  "matchEndMs": 1138201,
+  "gameName": "w3c-20-yitjXruIqJ-21692865",
+  "map": {
+    "path": "Maps/W3Champions\\54_w3c_260919_1153_Tidehunters_v1.2.w3x",
+    "name": "Tidehunters_v1.2",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 0,
+  "players": [
+    {
+      "pid": 1,
+      "name": "DwieTwarze#2534",
+      "team": 0,
+      "color": 1,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 4116,
+      "actionCounts": {
+        "0x10": 87,
+        "0x11": 46,
+        "0x12": 1229,
+        "0x13": 5,
+        "0x14": 10,
+        "0x16": 578,
+        "0x17": 238,
+        "0x18": 1528,
+        "0x19": 1608,
+        "0x1a": 1608,
+        "0x1b": 5287,
+        "0x61": 5,
+        "0x66": 13,
+        "0x67": 23,
+        "0x77": 1,
+        "0x7a": 505
+      },
+      "apmW3gjs": {
+        "countedActions": 3568,
+        "lastCommandBlockMs": 1138140,
+        "apm": 188
+      },
+      "heroes": [
+        {
+          "id": "Edem",
+          "firstOrderMs": 65520,
+          "firstSkillMs": 155761,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Ekee",
+          "firstOrderMs": 301470,
+          "firstSkillMs": 366420,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Nfir",
+          "firstOrderMs": 847620,
+          "firstSkillMs": 850681,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 390,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 2881,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 3691,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 9901,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 20281,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 29550,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 29581,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 29641,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 37950,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 48241,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 56971,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 81
+    },
+    {
+      "pid": 2,
+      "name": "RavenGG#21468",
+      "team": 1,
+      "color": 3,
+      "raceFlag": "0x02",
+      "race": "ORC",
+      "raceResolved": "ORC",
+      "commandBlocks": 4464,
+      "actionCounts": {
+        "0x10": 123,
+        "0x11": 17,
+        "0x12": 1751,
+        "0x13": 5,
+        "0x14": 3,
+        "0x16": 1033,
+        "0x17": 135,
+        "0x18": 1107,
+        "0x19": 1419,
+        "0x1a": 1419,
+        "0x1b": 4799,
+        "0x61": 2,
+        "0x66": 10,
+        "0x67": 19,
+        "0x77": 1,
+        "0x7a": 645
+      },
+      "apmW3gjs": {
+        "countedActions": 3789,
+        "lastCommandBlockMs": 1137810,
+        "apm": 200
+      },
+      "heroes": [
+        {
+          "id": "Obla",
+          "firstOrderMs": 68550,
+          "firstSkillMs": 142531,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Oshd",
+          "firstOrderMs": 360000,
+          "firstSkillMs": 418801,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 1320,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 17340,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 21480,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34771,
+          "id": "obar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 47611,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 66510,
+          "id": "ofor",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 68550,
+          "id": "Obla",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 79920,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 98821,
+          "id": "ogru",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 112770,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 118471,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 138780,
+          "id": "ovln",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 142531,
+          "id": "AOmi",
+          "type": "skill",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 81
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1138201,
+      "pid": 24,
+      "reason": "0x0c",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1138201,
+      "pid": 1,
+      "reason": "0x0c",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1138201,
+      "pid": 2,
+      "reason": "0x0c",
+      "result": "0x07"
+    }
+  ],
+  "winnerPid": null,
+  "chatMessages": 8,
+  "parse": {
+    "gameDataOffset": 437,
+    "commandBlocksExact": 8580,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ada8143a49325c22434fc18",
+  "apiWinnerName": "DwieTwarze#2534",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ada8143a49325c22434fc18.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "map"
+    ],
+    "notes": [
+      "winner: replay [] vs api ['DwieTwarze#2534']",
+      "duration: header 1138.2 s, matchEnd 1138.201 s vs api 1160 s (delta header -21.8 s)"
+    ],
+    "apiDurationInSeconds": 1160,
+    "apiMapName": "Tidehunters"
+  }
+}

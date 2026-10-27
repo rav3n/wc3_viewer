@@ -1,0 +1,2365 @@
+{
+ "schemaVersion": 1,
+ "patch": "3.0.1",
+ "source": "Liquipedia Warcraft Wiki, https://liquipedia.net/warcraft/",
+ "license": "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/",
+ "count": 25,
+ "entities": [
+  {
+   "id": "Hamg",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Archmage",
+   "race": "human",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 14,
+    "strGain": 2,
+    "agi": 17,
+    "agiGain": 1,
+    "int": 19,
+    "intGain": 3.2
+   },
+   "abilities": [
+    {
+     "id": "AHbz",
+     "name": "Blizzard",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHbz",
+      "revid": 320849,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHbz"
+     }
+    },
+    {
+     "id": "AHwe",
+     "name": "Summon Water Elemental",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHwe",
+      "revid": 888640,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHwe"
+     }
+    },
+    {
+     "id": "AHab",
+     "name": "Brilliance Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHab",
+      "revid": 127903,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHab"
+     }
+    },
+    {
+     "id": "AHmt",
+     "name": "Mass Teleport",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHmt",
+      "revid": 813021,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHmt"
+     }
+    }
+   ],
+   "source": {
+    "page": "Archmage",
+    "revid": 1013617,
+    "url": "https://liquipedia.net/warcraft/Archmage"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Kings",
+     "id": "halt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1,
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "Hblm",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Blood Mage",
+   "race": "human",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": null,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 18,
+    "strGain": 2,
+    "agi": 14,
+    "agiGain": 1,
+    "int": 19,
+    "intGain": 3
+   },
+   "abilities": [
+    {
+     "id": "AHfs",
+     "name": "Flame Strike",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHfs",
+      "revid": 990092,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHfs"
+     }
+    },
+    {
+     "id": "AHbn",
+     "name": "Banish",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHbn",
+      "revid": 974990,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHbn"
+     }
+    },
+    {
+     "id": "AHdr",
+     "name": "Siphon Mana",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHdr",
+      "revid": 977273,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHdr"
+     }
+    },
+    {
+     "id": "AHpx",
+     "name": "Phoenix",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHpx",
+      "revid": 854031,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHpx"
+     }
+    }
+   ],
+   "source": {
+    "page": "Blood Mage",
+    "revid": 1025432,
+    "url": "https://liquipedia.net/warcraft/Blood_Mage"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Kings",
+     "id": "halt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Hmkg",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Mountain King",
+   "race": "human",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 1,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 24,
+    "strGain": 3,
+    "agi": 11,
+    "agiGain": 1.5,
+    "int": 15,
+    "intGain": 1.5
+   },
+   "abilities": [
+    {
+     "id": "AHtb",
+     "name": "Storm Bolt",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHtb",
+      "revid": 118692,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHtb"
+     }
+    },
+    {
+     "id": "AHtc",
+     "name": "Thunder Clap",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHtc",
+      "revid": 948531,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHtc"
+     }
+    },
+    {
+     "id": "AHbh",
+     "name": "Bash",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHbh",
+      "revid": 886763,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHbh"
+     }
+    },
+    {
+     "id": "AHav",
+     "name": "Avatar",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHav",
+      "revid": 289886,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHav"
+     }
+    }
+   ],
+   "source": {
+    "page": "Mountain King",
+    "revid": 1013684,
+    "url": "https://liquipedia.net/warcraft/Mountain_King"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Kings",
+     "id": "halt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Hpal",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Paladin",
+   "race": "human",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 2,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 22,
+    "strGain": 2.7,
+    "agi": 13,
+    "agiGain": 1.5,
+    "int": 17,
+    "intGain": 1.8
+   },
+   "abilities": [
+    {
+     "id": "AHhb",
+     "name": "Holy Light",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHhb",
+      "revid": 974995,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHhb"
+     }
+    },
+    {
+     "id": "AHds",
+     "name": "Divine Shield",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHds",
+      "revid": 80387,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHds"
+     }
+    },
+    {
+     "id": "AHad",
+     "name": "Devotion Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHad",
+      "revid": 974996,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHad"
+     }
+    },
+    {
+     "id": "AHre",
+     "name": "Resurrection",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHre",
+      "revid": 358842,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHre"
+     }
+    }
+   ],
+   "source": {
+    "page": "Paladin",
+    "revid": 1013682,
+    "url": "https://liquipedia.net/warcraft/Paladin"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Kings",
+     "id": "halt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nalc",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Alchemist",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 25,
+    "strGain": 3.3,
+    "agi": 10,
+    "agiGain": 1,
+    "int": 18,
+    "intGain": 2
+   },
+   "abilities": [
+    {
+     "id": "ANhs",
+     "name": "Healing Spray",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANhs",
+      "revid": 205754,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANhs"
+     }
+    },
+    {
+     "id": "ANcr",
+     "name": "Chemical Rage",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANcr",
+      "revid": 1063545,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANcr"
+     }
+    },
+    {
+     "id": "ANab",
+     "name": "Acid Bomb",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANab",
+      "revid": 948527,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANab"
+     }
+    },
+    {
+     "id": "ANtm",
+     "name": "Transmute",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANtm",
+      "revid": 184052,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANtm"
+     }
+    }
+   ],
+   "source": {
+    "page": "Alchemist",
+    "revid": 1066486,
+    "url": "https://liquipedia.net/warcraft/Alchemist"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nbrn",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Dark Ranger",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 18,
+    "strGain": 1.9,
+    "agi": 21,
+    "agiGain": 1.5,
+    "int": 15,
+    "intGain": 2.6
+   },
+   "abilities": [
+    {
+     "id": "ANsi",
+     "name": "Silence",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANsi",
+      "revid": 357261,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANsi"
+     }
+    },
+    {
+     "id": "ANba",
+     "name": "Black Arrow",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANba",
+      "revid": 888653,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANba"
+     }
+    },
+    {
+     "id": "ANdr",
+     "name": "Life Drain",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANdr",
+      "revid": 1025040,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANdr"
+     }
+    },
+    {
+     "id": "ANch",
+     "name": "Charm",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANch",
+      "revid": 854346,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANch"
+     }
+    }
+   ],
+   "source": {
+    "page": "Dark Ranger",
+    "revid": 1066481,
+    "url": "https://liquipedia.net/warcraft/Dark_Ranger"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nbst",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Beastmaster",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 24,
+    "strGain": 2.9,
+    "agi": 14,
+    "agiGain": 1.3,
+    "int": 15,
+    "intGain": 1.8
+   },
+   "abilities": [
+    {
+     "id": "ANsg",
+     "name": "Summon Bear",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANsg",
+      "revid": 888642,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANsg"
+     }
+    },
+    {
+     "id": "ANsq",
+     "name": "Summon Quilbeast",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANsq",
+      "revid": 888643,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANsq"
+     }
+    },
+    {
+     "id": "ANsw",
+     "name": "Summon Hawk",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANsw",
+      "revid": 888644,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANsw"
+     }
+    },
+    {
+     "id": "ANst",
+     "name": "Stampede",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANst",
+      "revid": 48185,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANst"
+     }
+    }
+   ],
+   "source": {
+    "page": "Beastmaster",
+    "revid": 1066484,
+    "url": "https://liquipedia.net/warcraft/Beastmaster"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nfir",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Firelord",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 15,
+    "strGain": 2,
+    "agi": 20,
+    "agiGain": 1.6,
+    "int": 18,
+    "intGain": 2.5
+   },
+   "abilities": [
+    {
+     "id": "ANso",
+     "name": "Soul Burn",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANso",
+      "revid": 926341,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANso"
+     }
+    },
+    {
+     "id": "ANlm",
+     "name": "Summon Lava Spawn",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANlm",
+      "revid": 886805,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANlm"
+     }
+    },
+    {
+     "id": "ANia",
+     "name": "Incinerate",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANia",
+      "revid": 1021334,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANia"
+     }
+    },
+    {
+     "id": "ANvc",
+     "name": "Volcano",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANvc",
+      "revid": 924629,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANvc"
+     }
+    }
+   ],
+   "source": {
+    "page": "Firelord",
+    "revid": 1066482,
+    "url": "https://liquipedia.net/warcraft/Firelord"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nngs",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Naga Sea Witch",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 15,
+    "strGain": 2,
+    "agi": 16,
+    "agiGain": 1,
+    "int": 22,
+    "intGain": 3
+   },
+   "abilities": [
+    {
+     "id": "ANfl",
+     "name": "Forked Lightning",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANfl",
+      "revid": 52961,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANfl"
+     }
+    },
+    {
+     "id": "ANfa",
+     "name": "Frost Arrows",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANfa",
+      "revid": 995999,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANfa"
+     }
+    },
+    {
+     "id": "ANms",
+     "name": "Mana Shield",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANms",
+      "revid": 924632,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANms"
+     }
+    },
+    {
+     "id": "ANto",
+     "name": "Tornado",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANto",
+      "revid": 358881,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANto"
+     }
+    }
+   ],
+   "source": {
+    "page": "Naga Sea Witch",
+    "revid": 1066480,
+    "url": "https://liquipedia.net/warcraft/Naga_Sea_Witch"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Npal",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Forsaken Paladin",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 2,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 22,
+    "strGain": 2.7,
+    "agi": 13,
+    "agiGain": 1.5,
+    "int": 17,
+    "intGain": 1.8
+   },
+   "abilities": [
+    {
+     "id": "ANcp",
+     "name": "Righteous Fury",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANcp",
+      "revid": 1071919,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANcp"
+     }
+    },
+    {
+     "id": "AHcr",
+     "name": "Consecration",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHcr",
+      "revid": 1069196,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHcr"
+     }
+    },
+    {
+     "id": "AHpa",
+     "name": "Sacred Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHpa",
+      "revid": 1069193,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHpa"
+     }
+    },
+    {
+     "id": "AHcl",
+     "name": "Cleansing Fire",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AHcl",
+      "revid": 1066517,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHcl"
+     }
+    }
+   ],
+   "source": {
+    "page": "Forsaken Paladin",
+    "revid": 1069195,
+    "url": "https://liquipedia.net/warcraft/Forsaken_Paladin"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1,
+   "possiblyStale": {
+    "patches": [
+     "3.0.1"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "Npbm",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Pandaren Brewmaster",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 1,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 23,
+    "strGain": 3,
+    "agi": 14,
+    "agiGain": 1.5,
+    "int": 16,
+    "intGain": 1.5
+   },
+   "abilities": [
+    {
+     "id": "ANbf",
+     "name": "Breath of Fire",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANbf",
+      "revid": 991972,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANbf"
+     }
+    },
+    {
+     "id": "ANdh",
+     "name": "Drunken Haze",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANdh",
+      "revid": 888633,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANdh"
+     }
+    },
+    {
+     "id": "ANdb",
+     "name": "Drunken Brawler",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANdb",
+      "revid": 888634,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANdb"
+     }
+    },
+    {
+     "id": "ANef",
+     "name": "Storm, Earth, And Fire",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANef",
+      "revid": 928379,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANef"
+     }
+    }
+   ],
+   "source": {
+    "page": "Pandaren Brewmaster",
+    "revid": 1066479,
+    "url": "https://liquipedia.net/warcraft/Pandaren_Brewmaster"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Nplh",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Pit Lord",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 28,
+    "strGain": 3.2,
+    "agi": 16,
+    "agiGain": 1.3,
+    "int": 14,
+    "intGain": 1.5
+   },
+   "abilities": [
+    {
+     "id": "ANrf",
+     "name": "Rain of Fire",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANrf",
+      "revid": 975037,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANrf"
+     }
+    },
+    {
+     "id": "ANht",
+     "name": "Howl of Terror",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANht",
+      "revid": 888629,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANht"
+     }
+    },
+    {
+     "id": "ANca",
+     "name": "Cleaving Attack",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANca",
+      "revid": 991968,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANca"
+     }
+    },
+    {
+     "id": "ANdo",
+     "name": "Doom",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANdo",
+      "revid": 854035,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANdo"
+     }
+    }
+   ],
+   "source": {
+    "page": "Pit Lord",
+    "revid": 1066483,
+    "url": "https://liquipedia.net/warcraft/Pit_Lord"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ntin",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Tinker",
+   "race": "neutral",
+   "type": "hero",
+   "goldCost": 425,
+   "lumberCost": 135,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": null,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 1,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 22,
+    "strGain": 2.4,
+    "agi": 15,
+    "agiGain": 1,
+    "int": 20,
+    "intGain": 2.6
+   },
+   "abilities": [
+    {
+     "id": "ANsy",
+     "name": "Pocket Factory",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANsy",
+      "revid": 991970,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANsy"
+     }
+    },
+    {
+     "id": "ANcs",
+     "name": "Cluster Rockets",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANcs",
+      "revid": 991971,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANcs"
+     }
+    },
+    {
+     "id": "ANeg",
+     "name": "Engineering Upgrade",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANeg",
+      "revid": 49265,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANeg"
+     }
+    },
+    {
+     "id": "ANrg",
+     "name": "Robo-Goblin",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/ANrg",
+      "revid": 49157,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANrg"
+     }
+    },
+    {
+     "id": "ANde",
+     "name": "Demolish",
+     "inW3gjs": false,
+     "source": {
+      "page": "Template:SpellCard/ANde",
+      "revid": 49266,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/ANde"
+     }
+    }
+   ],
+   "source": {
+    "page": "Tinker",
+    "revid": 1066485,
+    "url": "https://liquipedia.net/warcraft/Tinker"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext",
+    "buildTimeSec": "tavern heroes are bought instantly ('Buyable at 2:15' on page Hero)"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Tavern",
+     "id": "ntav"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Edem",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Demon Hunter",
+   "race": "nightelf",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 19,
+    "strGain": 2.4,
+    "agi": 21,
+    "agiGain": 1.5,
+    "int": 16,
+    "intGain": 2.1
+   },
+   "abilities": [
+    {
+     "id": "AEmb",
+     "name": "Mana Burn",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEmb",
+      "revid": 184024,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEmb"
+     }
+    },
+    {
+     "id": "AEim",
+     "name": "Immolation",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEim",
+      "revid": 886773,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEim"
+     }
+    },
+    {
+     "id": "AEev",
+     "name": "Evasion",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEev",
+      "revid": 888637,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEev"
+     }
+    },
+    {
+     "id": "AEme",
+     "name": "Metamorphosis",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEme",
+      "revid": 1022745,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEme"
+     }
+    }
+   ],
+   "source": {
+    "page": "Demon Hunter",
+    "revid": 1015506,
+    "url": "https://liquipedia.net/warcraft/Demon_Hunter"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Elders",
+     "id": "eate"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ekee",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Keeper of the Grove",
+   "race": "nightelf",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 16,
+    "strGain": 2,
+    "agi": 15,
+    "agiGain": 1.5,
+    "int": 18,
+    "intGain": 2.7
+   },
+   "abilities": [
+    {
+     "id": "AEer",
+     "name": "Entangling Roots",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEer",
+      "revid": 813044,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEer"
+     }
+    },
+    {
+     "id": "AEfn",
+     "name": "Force of Nature",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEfn",
+      "revid": 888649,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEfn"
+     }
+    },
+    {
+     "id": "AEah",
+     "name": "Thorns Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEah",
+      "revid": 813045,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEah"
+     }
+    },
+    {
+     "id": "AEtq",
+     "name": "Tranquility",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEtq",
+      "revid": 993900,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEtq"
+     }
+    }
+   ],
+   "source": {
+    "page": "Keeper of the Grove",
+    "revid": 1015495,
+    "url": "https://liquipedia.net/warcraft/Keeper_of_the_Grove"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Elders",
+     "id": "eate"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Emoo",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Priestess of the Moon",
+   "race": "nightelf",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 18,
+    "strGain": 1.9,
+    "agi": 19,
+    "agiGain": 1.5,
+    "int": 15,
+    "intGain": 2.6
+   },
+   "abilities": [
+    {
+     "id": "AEst",
+     "name": "Scout",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEst",
+      "revid": 974660,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEst"
+     }
+    },
+    {
+     "id": "AEfa",
+     "name": "Searing Arrows",
+     "inW3gjs": false,
+     "source": {
+      "page": "Template:SpellCard/AEfa",
+      "revid": 926757,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEfa"
+     }
+    },
+    {
+     "id": "AEar",
+     "name": "Trueshot Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEar",
+      "revid": 888638,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEar"
+     }
+    },
+    {
+     "id": "AEsf",
+     "name": "Starfall",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEsf",
+      "revid": 924604,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEsf"
+     }
+    }
+   ],
+   "source": {
+    "page": "Priestess of the Moon",
+    "revid": 1015504,
+    "url": "https://liquipedia.net/warcraft/Priestess_of_the_Moon"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Elders",
+     "id": "eate"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ewar",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Warden",
+   "race": "nightelf",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 18,
+    "strGain": 2.4,
+    "agi": 20,
+    "agiGain": 1.6,
+    "int": 16,
+    "intGain": 2
+   },
+   "abilities": [
+    {
+     "id": "AEfk",
+     "name": "Fan of Knives",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEfk",
+      "revid": 1072860,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEfk"
+     }
+    },
+    {
+     "id": "AEbl",
+     "name": "Blink",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEbl",
+      "revid": 922943,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEbl"
+     }
+    },
+    {
+     "id": "AEsh",
+     "name": "Shadow Strike",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEsh",
+      "revid": 948532,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEsh"
+     }
+    },
+    {
+     "id": "AEsv",
+     "name": "Vengeance",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AEsv",
+      "revid": 930582,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AEsv"
+     }
+    }
+   ],
+   "source": {
+    "page": "Warden",
+    "revid": 1015222,
+    "url": "https://liquipedia.net/warcraft/Warden"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Elders",
+     "id": "eate"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Obla",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Blademaster",
+   "race": "orc",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 18,
+    "strGain": 2,
+    "agi": 22,
+    "agiGain": 1.75,
+    "int": 16,
+    "intGain": 2.25
+   },
+   "abilities": [
+    {
+     "id": "AOwk",
+     "name": "Wind Walk",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOwk",
+      "revid": 1018504,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOwk"
+     }
+    },
+    {
+     "id": "AOmi",
+     "name": "Mirror Image",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOmi",
+      "revid": 975010,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOmi"
+     }
+    },
+    {
+     "id": "AOcr",
+     "name": "Critical Strike",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOcr",
+      "revid": 48975,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOcr"
+     }
+    },
+    {
+     "id": "AOww",
+     "name": "Bladestorm",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOww",
+      "revid": 948534,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOww"
+     }
+    }
+   ],
+   "source": {
+    "page": "Blademaster",
+    "revid": 1013764,
+    "url": "https://liquipedia.net/warcraft/Blademaster"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Storms",
+     "id": "oalt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ofar",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Far Seer",
+   "race": "orc",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 15,
+    "strGain": 2,
+    "agi": 18,
+    "agiGain": 1,
+    "int": 19,
+    "intGain": 3
+   },
+   "abilities": [
+    {
+     "id": "AOcl",
+     "name": "Chain Lightning",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOcl",
+      "revid": 813039,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOcl"
+     }
+    },
+    {
+     "id": "AOfs",
+     "name": "Far Sight",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOfs",
+      "revid": 331720,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOfs"
+     }
+    },
+    {
+     "id": "AOsf",
+     "name": "Feral Spirit",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOsf",
+      "revid": 888641,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOsf"
+     }
+    },
+    {
+     "id": "AOeq",
+     "name": "Earthquake",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOeq",
+      "revid": 359538,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOeq"
+     }
+    }
+   ],
+   "source": {
+    "page": "Far Seer",
+    "revid": 1014013,
+    "url": "https://liquipedia.net/warcraft/Far_Seer"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Storms",
+     "id": "oalt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Oshd",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Shadow Hunter",
+   "race": "orc",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "agi",
+   "attributes": {
+    "str": 15,
+    "strGain": 2,
+    "agi": 20,
+    "agiGain": 1.5,
+    "int": 17,
+    "intGain": 2.5
+   },
+   "abilities": [
+    {
+     "id": "AOhw",
+     "name": "Healing Wave",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOhw",
+      "revid": 52977,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOhw"
+     }
+    },
+    {
+     "id": "AOhx",
+     "name": "Hex",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOhx",
+      "revid": 52979,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOhx"
+     }
+    },
+    {
+     "id": "AOsw",
+     "name": "Serpent Ward",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOsw",
+      "revid": 938381,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOsw"
+     }
+    },
+    {
+     "id": "AOvd",
+     "name": "Big Bad Voodoo",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOvd",
+      "revid": 358843,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOvd"
+     }
+    }
+   ],
+   "source": {
+    "page": "Shadow Hunter",
+    "revid": 1024526,
+    "url": "https://liquipedia.net/warcraft/Shadow_Hunter"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Storms",
+     "id": "oalt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Otch",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Tauren Chieftain",
+   "race": "orc",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 1,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 25,
+    "strGain": 3.2,
+    "agi": 10,
+    "agiGain": 1.5,
+    "int": 15,
+    "intGain": 1.3
+   },
+   "abilities": [
+    {
+     "id": "AOsh",
+     "name": "Shockwave",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOsh",
+      "revid": 431699,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOsh"
+     }
+    },
+    {
+     "id": "AOws",
+     "name": "War Stomp",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOws",
+      "revid": 431698,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOws"
+     }
+    },
+    {
+     "id": "AOae",
+     "name": "Endurance Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOae",
+      "revid": 1011970,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOae"
+     }
+    },
+    {
+     "id": "AOre",
+     "name": "Reincarnation",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AOre",
+      "revid": 80403,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AOre"
+     }
+    }
+   ],
+   "source": {
+    "page": "Tauren Chieftain",
+    "revid": 1014045,
+    "url": "https://liquipedia.net/warcraft/Tauren_Chieftain"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Storms",
+     "id": "oalt"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ucrl",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Crypt Lord",
+   "race": "undead",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 26,
+    "strGain": 3.2,
+    "agi": 14,
+    "agiGain": 1.2,
+    "int": 14,
+    "intGain": 1.6
+   },
+   "abilities": [
+    {
+     "id": "AUim",
+     "name": "Impale",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUim",
+      "revid": 924622,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUim"
+     }
+    },
+    {
+     "id": "AUts",
+     "name": "Spiked Carapace",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUts",
+      "revid": 886781,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUts"
+     }
+    },
+    {
+     "id": "AUcb",
+     "name": "Carrion Beetles",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUcb",
+      "revid": 397253,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUcb"
+     }
+    },
+    {
+     "id": "AUls",
+     "name": "Locust Swarm",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUls",
+      "revid": 948533,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUls"
+     }
+    }
+   ],
+   "source": {
+    "page": "Crypt Lord",
+    "revid": 1014748,
+    "url": "https://liquipedia.net/warcraft/Crypt_Lord"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Darkness",
+     "id": "uaod"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Udea",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Death Knight",
+   "race": "undead",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 1,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 23,
+    "strGain": 2.7,
+    "agi": 12,
+    "agiGain": 1.5,
+    "int": 17,
+    "intGain": 1.8
+   },
+   "abilities": [
+    {
+     "id": "AUdc",
+     "name": "Death Coil",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUdc",
+      "revid": 52508,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUdc"
+     }
+    },
+    {
+     "id": "AUdp",
+     "name": "Death Pact",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUdp",
+      "revid": 49009,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUdp"
+     }
+    },
+    {
+     "id": "AUau",
+     "name": "Unholy Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUau",
+      "revid": 813065,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUau"
+     }
+    },
+    {
+     "id": "AUan",
+     "name": "Animate Dead",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUan",
+      "revid": 978017,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUan"
+     }
+    }
+   ],
+   "source": {
+    "page": "Death Knight",
+    "revid": 1030917,
+    "url": "https://liquipedia.net/warcraft/Death_Knight"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Darkness",
+     "id": "uaod"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Udre",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Dreadlord",
+   "race": "undead",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "str",
+   "attributes": {
+    "str": 20,
+    "strGain": 2.5,
+    "agi": 16,
+    "agiGain": 1,
+    "int": 18,
+    "intGain": 2.5
+   },
+   "abilities": [
+    {
+     "id": "AUcs",
+     "name": "Carrion Swarm",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUcs",
+      "revid": 975028,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUcs"
+     }
+    },
+    {
+     "id": "AUsl",
+     "name": "Sleep",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUsl",
+      "revid": 80413,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUsl"
+     }
+    },
+    {
+     "id": "AUav",
+     "name": "Vampiric Aura",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUav",
+      "revid": 80414,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUav"
+     }
+    },
+    {
+     "id": "AUin",
+     "name": "Inferno",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUin",
+      "revid": 854034,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUin"
+     }
+    }
+   ],
+   "source": {
+    "page": "Dreadlord",
+    "revid": 1014825,
+    "url": "https://liquipedia.net/warcraft/Dreadlord"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Darkness",
+     "id": "uaod"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  },
+  {
+   "id": "Ulic",
+   "idSource": "w3gjs:abilityToHero",
+   "name": "Lich",
+   "race": "undead",
+   "type": "hero",
+   "goldCost": 400,
+   "lumberCost": 100,
+   "foodCost": 5,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "firstHeroCost": {
+    "goldCost": 0,
+    "lumberCost": 0
+   },
+   "hp": null,
+   "armor": 0,
+   "primaryAttribute": "int",
+   "attributes": {
+    "str": 15,
+    "strGain": 2,
+    "agi": 14,
+    "agiGain": 1,
+    "int": 20,
+    "intGain": 3.4
+   },
+   "abilities": [
+    {
+     "id": "AUfn",
+     "name": "Frost Nova",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUfn",
+      "revid": 991967,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUfn"
+     }
+    },
+    {
+     "id": "AUfu",
+     "name": "Frost Armor",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUfu",
+      "revid": 889057,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUfu"
+     }
+    },
+    {
+     "id": "AUdr",
+     "name": "Dark Ritual",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUdr",
+      "revid": 813075,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUdr"
+     }
+    },
+    {
+     "id": "AUdd",
+     "name": "Death and Decay",
+     "inW3gjs": true,
+     "source": {
+      "page": "Template:SpellCard/AUdd",
+      "revid": 924623,
+      "url": "https://liquipedia.net/warcraft/Template:SpellCard/AUdd"
+     }
+    }
+   ],
+   "source": {
+    "page": "Lich",
+    "revid": 1014834,
+    "url": "https://liquipedia.net/warcraft/Lich"
+   },
+   "costSource": {
+    "page": "Hero",
+    "revid": 1053486,
+    "url": "https://liquipedia.net/warcraft/Hero"
+   },
+   "nullFields": {
+    "hp": "Liquipedia computes hero HP in a Lua module from attributes; not stored in wikitext"
+   },
+   "notes": [
+    "armor = base armor before agility bonus (Infobox heroauto basearmor)"
+   ],
+   "producedBy": [
+    {
+     "name": "Altar of Darkness",
+     "id": "uaod"
+    }
+   ],
+   "requirements": [],
+   "tier": 1
+  }
+ ]
+}

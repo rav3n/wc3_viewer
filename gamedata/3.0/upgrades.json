@@ -1,0 +1,3920 @@
+{
+ "schemaVersion": 1,
+ "patch": "3.0.1",
+ "source": "Liquipedia Warcraft Wiki, https://liquipedia.net/warcraft/",
+ "license": "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/",
+ "count": 80,
+ "entities": [
+  {
+   "id": "Rhac",
+   "idSource": "liquipedia:template",
+   "name": "Improved Masonry",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Improved Masonry",
+     "goldCost": 125,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Advanced Masonry",
+     "goldCost": 150,
+     "lumberCost": 75,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Imbued Masonry",
+     "goldCost": 175,
+     "lumberCost": 100,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     25
+    ],
+    "lumber": [
+     50,
+     25
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhac",
+    "revid": 118567,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhac"
+   },
+   "researchedAt": [
+    {
+     "name": "Lumber Mill",
+     "id": "hlum"
+    }
+   ]
+  },
+  {
+   "id": "Rhan",
+   "idSource": "liquipedia:template",
+   "name": "Animal War Training",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Animal War Training",
+     "goldCost": 125,
+     "lumberCost": 125,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Lumber Mill",
+       "id": "hlum"
+      }
+     ],
+     "tier": 1
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     0
+    ],
+    "lumber": [
+     125,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhan",
+    "revid": 184599,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhan"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Human)",
+     "id": "hbar"
+    }
+   ]
+  },
+  {
+   "id": "Rhar",
+   "idSource": "liquipedia:template",
+   "name": "Iron Plating",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Iron Plating",
+     "goldCost": 125,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Steel Plating",
+     "goldCost": 150,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Mithril Plating",
+     "goldCost": 175,
+     "lumberCost": 275,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     25
+    ],
+    "lumber": [
+     75,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhar",
+    "revid": 78448,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhar"
+   },
+   "researchedAt": [
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ]
+  },
+  {
+   "id": "Rhcd",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aclf",
+   "name": "Cloud",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Cloud",
+     "goldCost": 50,
+     "lumberCost": 100,
+     "researchTimeSec": 35,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aclf",
+    "revid": 974988,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aclf"
+   },
+   "researchedAt": [
+    {
+     "name": "Gryphon Aviary",
+     "id": "hgra"
+    }
+   ]
+  },
+  {
+   "id": "Rhde",
+   "idSource": "w3gjs:name",
+   "abilityId": "Adef",
+   "name": "Defend",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Defend",
+     "goldCost": 125,
+     "lumberCost": 75,
+     "researchTimeSec": 40,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Adef",
+    "revid": 975001,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Adef"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Human)",
+     "id": "hbar"
+    }
+   ]
+  },
+  {
+   "id": "Rhfc",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aflk",
+   "name": "Flak Cannons",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Flak Cannons",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aflk",
+    "revid": 118565,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aflk"
+   },
+   "researchedAt": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ]
+  },
+  {
+   "id": "Rhfl",
+   "idSource": "w3gjs:name",
+   "abilityId": "Afla",
+   "name": "Flare",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Flare",
+     "goldCost": 50,
+     "lumberCost": 50,
+     "researchTimeSec": 20,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Afla",
+    "revid": 48930,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Afla"
+   },
+   "researchedAt": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ]
+  },
+  {
+   "id": "Rhfs",
+   "idSource": "w3gjs:name",
+   "abilityId": "Afsh",
+   "name": "Fragmentation Shards",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Fragmentation Shards",
+     "goldCost": 50,
+     "lumberCost": 100,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Afsh",
+    "revid": 118562,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Afsh"
+   },
+   "researchedAt": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ]
+  },
+  {
+   "id": "Rhgb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Agyb",
+   "name": "Flying Machine Bombs",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Flying Machine Bombs",
+     "goldCost": 150,
+     "lumberCost": 100,
+     "researchTimeSec": 35,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Agyb",
+    "revid": 312417,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Agyb"
+   },
+   "researchedAt": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ]
+  },
+  {
+   "id": "Rhhb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Asth",
+   "name": "Storm Hammers",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Storm Hammers",
+     "goldCost": 125,
+     "lumberCost": 225,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Asth",
+    "revid": 48517,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Asth"
+   },
+   "researchedAt": [
+    {
+     "name": "Gryphon Aviary",
+     "id": "hgra"
+    }
+   ]
+  },
+  {
+   "id": "Rhla",
+   "idSource": "liquipedia:template",
+   "name": "Studded Leather Armor",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Studded Leather Armor",
+     "goldCost": 100,
+     "lumberCost": 100,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Reinforced Leather Armor",
+     "goldCost": 150,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Dragonhide Armor",
+     "goldCost": 200,
+     "lumberCost": 250,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     50
+    ],
+    "lumber": [
+     100,
+     75
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhla",
+    "revid": 78450,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhla"
+   },
+   "researchedAt": [
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ]
+  },
+  {
+   "id": "Rhlh",
+   "idSource": "liquipedia:template",
+   "name": "Improved Lumber Harvesting",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Improved Lumber Harvesting",
+     "goldCost": 100,
+     "lumberCost": 0,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Advanced Lumber Harvesting",
+     "goldCost": 200,
+     "lumberCost": 0,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     100
+    ],
+    "lumber": [
+     0,
+     0
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhlh",
+    "revid": 526846,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhlh"
+   },
+   "researchedAt": [
+    {
+     "name": "Lumber Mill",
+     "id": "hlum"
+    }
+   ]
+  },
+  {
+   "id": "Rhme",
+   "idSource": "liquipedia:template",
+   "name": "Iron Forged Swords",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Iron Forged Swords",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Steel Forged Swords",
+     "goldCost": 175,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Mithril Forged Swords",
+     "goldCost": 250,
+     "lumberCost": 300,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     75
+    ],
+    "lumber": [
+     50,
+     125
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhme",
+    "revid": 78449,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhme"
+   },
+   "researchedAt": [
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ]
+  },
+  {
+   "id": "Rhpm",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aihn",
+   "name": "Backpack (Human)",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Backpack (Human)",
+     "goldCost": 50,
+     "lumberCost": 25,
+     "researchTimeSec": 20,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aihn",
+    "revid": 975040,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aihn"
+   },
+   "costSource": {
+    "page": "Template:SpellCard/UnitInventory",
+    "revid": 349601,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/UnitInventory"
+   },
+   "researchedAt": [
+    {
+     "name": "Town Hall",
+     "id": "htow"
+    }
+   ]
+  },
+  {
+   "id": "Rhpt",
+   "idSource": "liquipedia:template",
+   "name": "Priest Adept Training",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Priest Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Priest Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhpt",
+    "revid": 1025019,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhpt"
+   },
+   "researchedAt": [
+    {
+     "name": "Arcane Sanctum",
+     "id": "hars"
+    }
+   ]
+  },
+  {
+   "id": "Rhra",
+   "idSource": "liquipedia:template",
+   "name": "Black Gunpowder",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Black Gunpowder",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Refined Gunpowder",
+     "goldCost": 175,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Imbued Gunpowder",
+     "goldCost": 250,
+     "lumberCost": 300,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     75
+    ],
+    "lumber": [
+     50,
+     125
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhra",
+    "revid": 78447,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhra"
+   },
+   "researchedAt": [
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ]
+  },
+  {
+   "id": "Rhri",
+   "idSource": "liquipedia:template",
+   "name": "Long Rifles",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Long Rifles",
+     "goldCost": 75,
+     "lumberCost": 125,
+     "researchTimeSec": 30,
+     "requirements": [
+      {
+       "name": "Keep",
+       "id": "hkee"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     75,
+     0
+    ],
+    "lumber": [
+     125,
+     0
+    ],
+    "researchTimeSec": [
+     30,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhri",
+    "revid": 46538,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhri"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Human)",
+     "id": "hbar"
+    }
+   ]
+  },
+  {
+   "id": "Rhrt",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aroc",
+   "name": "Barrage",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Barrage",
+     "goldCost": 50,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aroc",
+    "revid": 760654,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aroc"
+   },
+   "researchedAt": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ]
+  },
+  {
+   "id": "Rhsb",
+   "idSource": "liquipedia:template",
+   "name": "Sundering Blades",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Sundering Blades",
+     "goldCost": 100,
+     "lumberCost": 100,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Lumber Mill",
+       "id": "hlum"
+      }
+     ],
+     "tier": 1
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhsb",
+    "revid": 276904,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhsb"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Human)",
+     "id": "hbar"
+    }
+   ]
+  },
+  {
+   "id": "Rhse",
+   "idSource": "w3gjs:name",
+   "abilityId": "AHta",
+   "name": "Magic Sentry",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Magic Sentry",
+     "goldCost": 50,
+     "lumberCost": 50,
+     "researchTimeSec": 30,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/AHta",
+    "revid": 54511,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/AHta"
+   },
+   "researchedAt": [
+    {
+     "name": "Arcane Sanctum",
+     "id": "hars"
+    }
+   ]
+  },
+  {
+   "id": "Rhss",
+   "idSource": "w3gjs:name",
+   "abilityId": "Acmg",
+   "name": "Control Magic",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Control Magic",
+     "goldCost": 75,
+     "lumberCost": 75,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Arcane Vault",
+       "id": "hvlt"
+      },
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Acmg",
+    "revid": 924594,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Acmg"
+   },
+   "researchedAt": [
+    {
+     "name": "Arcane Sanctum",
+     "id": "hars"
+    }
+   ]
+  },
+  {
+   "id": "Rhst",
+   "idSource": "liquipedia:template",
+   "name": "Sorceress Adept Training",
+   "race": "human",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Sorceress Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Sorceress Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Castle",
+       "id": "hcas"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rhst",
+    "revid": 1025018,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rhst"
+   },
+   "researchedAt": [
+    {
+     "name": "Arcane Sanctum",
+     "id": "hars"
+    }
+   ]
+  },
+  {
+   "id": "Recb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Acor",
+   "name": "Corrosive Breath",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Corrosive Breath",
+     "goldCost": 125,
+     "lumberCost": 225,
+     "researchTimeSec": 40,
+     "requirements": [],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Acor",
+    "revid": 346216,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Acor"
+   },
+   "researchedAt": [
+    {
+     "name": "Chimaera Roost",
+     "id": "edos"
+    }
+   ]
+  },
+  {
+   "id": "Redc",
+   "idSource": "liquipedia:template",
+   "name": "Druid of the Claw Adept Training",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Druid of the Claw Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 25,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Druid of the Claw Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 35,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     25,
+     10
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Redc",
+    "revid": 737715,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Redc"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ]
+  },
+  {
+   "id": "Redt",
+   "idSource": "liquipedia:template",
+   "name": "Druid of the Talon Adept Training",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Druid of the Talon Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Druid of the Talon Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Redt",
+    "revid": 1025033,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Redt"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Wind",
+     "id": "eaow"
+    }
+   ]
+  },
+  {
+   "id": "Reeb",
+   "idSource": "liquipedia:template",
+   "name": "Mark of the Claw",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Mark of the Claw",
+     "goldCost": 25,
+     "lumberCost": 100,
+     "researchTimeSec": 20,
+     "requirements": [
+      {
+       "name": "Druid of the Claw Master Training",
+       "id": null
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     25,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     20,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Reeb",
+    "revid": 282510,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Reeb"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ]
+  },
+  {
+   "id": "Reec",
+   "idSource": "liquipedia:template",
+   "name": "Mark of the Talon",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Mark of the Talon",
+     "goldCost": 25,
+     "lumberCost": 100,
+     "researchTimeSec": 20,
+     "requirements": [
+      {
+       "name": "Druid of the Talon Adept Training",
+       "id": null
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     25,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     20,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Reec",
+    "revid": 886915,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Reec"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Wind",
+     "id": "eaow"
+    }
+   ]
+  },
+  {
+   "id": "Rehs",
+   "idSource": "w3gjs:name",
+   "abilityId": "Assk",
+   "name": "Hardened Skin",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Hardened Skin",
+     "goldCost": 100,
+     "lumberCost": 175,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      },
+      {
+       "name": "Ancient of Wonders",
+       "id": "eden"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Assk",
+    "revid": 813050,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Assk"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ]
+  },
+  {
+   "id": "Reib",
+   "idSource": "liquipedia:template",
+   "name": "Improved Bows",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Improved Bows",
+     "goldCost": 50,
+     "lumberCost": 100,
+     "researchTimeSec": 35,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     50,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     35,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Reib",
+    "revid": 288556,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Reib"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of War",
+     "id": "eaom"
+    }
+   ]
+  },
+  {
+   "id": "Rema",
+   "idSource": "liquipedia:template",
+   "name": "Moon Armor",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Moon Armor",
+     "goldCost": 150,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Moon Armor",
+     "goldCost": 200,
+     "lumberCost": 150,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Moon Armor",
+     "goldCost": 250,
+     "lumberCost": 225,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     50
+    ],
+    "lumber": [
+     75,
+     75
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rema",
+    "revid": 309544,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rema"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Remg",
+   "idSource": "w3gjs:name",
+   "abilityId": "Amgl",
+   "name": "Moon Glaive",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Moon Glaive",
+     "goldCost": 125,
+     "lumberCost": 175,
+     "researchTimeSec": 50,
+     "requirements": [
+      {
+       "name": "Hunter's Hall",
+       "id": "edob"
+      },
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Amgl",
+    "revid": 991965,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Amgl"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of War",
+     "id": "eaom"
+    }
+   ]
+  },
+  {
+   "id": "Remk",
+   "idSource": "liquipedia:template",
+   "name": "Marksmanship",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Marksmanship",
+     "goldCost": 100,
+     "lumberCost": 175,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     175,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Remk",
+    "revid": 288554,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Remk"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of War",
+     "id": "eaom"
+    }
+   ]
+  },
+  {
+   "id": "Renb",
+   "idSource": "liquipedia:template",
+   "name": "Nature's Blessing",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Nature's Blessing",
+     "goldCost": 150,
+     "lumberCost": 200,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     0
+    ],
+    "lumber": [
+     200,
+     0
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Renb",
+    "revid": 926740,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Renb"
+   },
+   "researchedAt": [
+    {
+     "name": "Tree of Life",
+     "id": "etol"
+    }
+   ]
+  },
+  {
+   "id": "Repb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aimp",
+   "name": "Vorpal Blades",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Vorpal Blades",
+     "goldCost": 125,
+     "lumberCost": 100,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      },
+      {
+       "name": "Hunter's Hall",
+       "id": "edob"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aimp",
+    "revid": 1049467,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aimp"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of War",
+     "id": "eaom"
+    }
+   ]
+  },
+  {
+   "id": "Repm",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aien",
+   "name": "Backpack (Night Elf)",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Backpack (Night Elf)",
+     "goldCost": 50,
+     "lumberCost": 25,
+     "researchTimeSec": 20,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aien",
+    "revid": 975041,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aien"
+   },
+   "costSource": {
+    "page": "Template:SpellCard/UnitInventory",
+    "revid": 349601,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/UnitInventory"
+   },
+   "researchedAt": [
+    {
+     "name": "Tree of Life",
+     "id": "etol"
+    }
+   ]
+  },
+  {
+   "id": "Rerh",
+   "idSource": "liquipedia:template",
+   "name": "Reinforced Hides",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Reinforced Hides",
+     "goldCost": 150,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Reinforced Hides",
+     "goldCost": 200,
+     "lumberCost": 150,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Reinforced Hides",
+     "goldCost": 250,
+     "lumberCost": 250,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     50
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rerh",
+    "revid": 309545,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rerh"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Rers",
+   "idSource": "w3gjs:name",
+   "abilityId": "Arsk",
+   "name": "Resistant Skin",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Resistant Skin",
+     "goldCost": 50,
+     "lumberCost": 100,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      },
+      {
+       "name": "Ancient of Wonders",
+       "id": "eden"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Arsk",
+    "revid": 49261,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Arsk"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "Resc",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aesn",
+   "name": "Sentinel",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Sentinel",
+     "goldCost": 50,
+     "lumberCost": 50,
+     "researchTimeSec": 20,
+     "requirements": [
+      {
+       "name": "Hunter's Hall",
+       "id": "edob"
+      }
+     ],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aesn",
+    "revid": 977275,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aesn"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of War",
+     "id": "eaom"
+    }
+   ]
+  },
+  {
+   "id": "Resi",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aadm",
+   "name": "Abolish Magic",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Abolish Magic",
+     "goldCost": 50,
+     "lumberCost": 50,
+     "researchTimeSec": 45,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aadm",
+    "revid": 358447,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aadm"
+   },
+   "researchedAt": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "Resm",
+   "idSource": "liquipedia:template",
+   "name": "Strength of the Moon",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Strength of the Moon",
+     "goldCost": 125,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Strength of the Moon",
+     "goldCost": 175,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Strength of the Moon",
+     "goldCost": 225,
+     "lumberCost": 275,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     50
+    ],
+    "lumber": [
+     75,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Resm",
+    "revid": 309546,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Resm"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Resw",
+   "idSource": "liquipedia:template",
+   "name": "Strength of the Wild",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Strength of the Wild",
+     "goldCost": 100,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Strength of the Wild",
+     "goldCost": 175,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Strength of the Wild",
+     "goldCost": 250,
+     "lumberCost": 275,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     75
+    ],
+    "lumber": [
+     75,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Resw",
+    "revid": 737716,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Resw"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Reuv",
+   "idSource": "liquipedia:template",
+   "name": "Ultravision",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Ultravision",
+     "goldCost": 50,
+     "lumberCost": 50,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Tree of Ages",
+       "id": "etoa"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     50,
+     0
+    ],
+    "lumber": [
+     50,
+     0
+    ],
+    "researchTimeSec": [
+     45,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Reuv",
+    "revid": 977274,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Reuv"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Rews",
+   "idSource": "liquipedia:template",
+   "name": "Well Spring",
+   "race": "nightelf",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Well Spring",
+     "goldCost": 75,
+     "lumberCost": 150,
+     "researchTimeSec": 30,
+     "requirements": [
+      {
+       "name": "Tree of Eternity",
+       "id": "etoe"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     75,
+     0
+    ],
+    "lumber": [
+     150,
+     0
+    ],
+    "researchTimeSec": [
+     30,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rews",
+    "revid": 1017489,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rews"
+   },
+   "researchedAt": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ]
+  },
+  {
+   "id": "Roar",
+   "idSource": "liquipedia:template",
+   "name": "Steel Armor",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Steel Armor",
+     "goldCost": 150,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Thorium Armor",
+     "goldCost": 225,
+     "lumberCost": 200,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Arcanite Armor",
+     "goldCost": 300,
+     "lumberCost": 325,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     75
+    ],
+    "lumber": [
+     75,
+     125
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Roar",
+    "revid": 886793,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Roar"
+   },
+   "researchedAt": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ]
+  },
+  {
+   "id": "Robf",
+   "idSource": "w3gjs:name",
+   "abilityId": "Abof",
+   "name": "Burning Oil",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Burning Oil",
+     "goldCost": 50,
+     "lumberCost": 150,
+     "researchTimeSec": 30,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Abof",
+    "revid": 991959,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Abof"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Orc)",
+     "id": "obar"
+    }
+   ]
+  },
+  {
+   "id": "Robk",
+   "idSource": "liquipedia:template",
+   "name": "Berserker Upgrade",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Berserker Upgrade",
+     "goldCost": 75,
+     "lumberCost": 175,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     75,
+     0
+    ],
+    "lumber": [
+     175,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Robk",
+    "revid": 50586,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Robk"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Orc)",
+     "id": "obar"
+    }
+   ]
+  },
+  {
+   "id": "Robs",
+   "idSource": "liquipedia:template",
+   "name": "Brute Strength",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Brute Strength",
+     "goldCost": 50,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     50,
+     0
+    ],
+    "lumber": [
+     150,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Robs",
+    "revid": 289849,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Robs"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Orc)",
+     "id": "obar"
+    }
+   ]
+  },
+  {
+   "id": "Roen",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aens",
+   "name": "Ensnare",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Ensnare",
+     "goldCost": 50,
+     "lumberCost": 75,
+     "researchTimeSec": 40,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aens",
+    "revid": 120939,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aens"
+   },
+   "researchedAt": [
+    {
+     "name": "Beastiary",
+     "id": "obea"
+    }
+   ]
+  },
+  {
+   "id": "Rolf",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aliq",
+   "name": "Liquid Fire",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Liquid Fire",
+     "goldCost": 75,
+     "lumberCost": 125,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      },
+      {
+       "name": "Voodoo Lounge",
+       "id": "ovln"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aliq",
+    "revid": 813027,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aliq"
+   },
+   "researchedAt": [
+    {
+     "name": "Beastiary",
+     "id": "obea"
+    }
+   ]
+  },
+  {
+   "id": "Rome",
+   "idSource": "liquipedia:template",
+   "name": "Steel Melee Weapons",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Steel Melee Weapons",
+     "goldCost": 100,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Thorium Melee Weapons",
+     "goldCost": 150,
+     "lumberCost": 150,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Arcanite Melee Weapons",
+     "goldCost": 200,
+     "lumberCost": 225,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     50
+    ],
+    "lumber": [
+     75,
+     75
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rome",
+    "revid": 886794,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rome"
+   },
+   "researchedAt": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ]
+  },
+  {
+   "id": "Ropg",
+   "idSource": "w3gjs:name",
+   "abilityId": "Asal",
+   "name": "Pillage",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Pillage",
+     "goldCost": 75,
+     "lumberCost": 25,
+     "researchTimeSec": 45,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Asal",
+    "revid": 913187,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Asal"
+   },
+   "researchedAt": [
+    {
+     "name": "Great Hall",
+     "id": "ogre"
+    }
+   ]
+  },
+  {
+   "id": "Ropm",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aion",
+   "name": "Backpack (Orc)",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Backpack (Orc)",
+     "goldCost": 50,
+     "lumberCost": 25,
+     "researchTimeSec": 20,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aion",
+    "revid": 975042,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aion"
+   },
+   "costSource": {
+    "page": "Template:SpellCard/UnitInventory",
+    "revid": 349601,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/UnitInventory"
+   },
+   "researchedAt": [
+    {
+     "name": "Great Hall",
+     "id": "ogre"
+    }
+   ]
+  },
+  {
+   "id": "Rora",
+   "idSource": "liquipedia:template",
+   "name": "Steel Ranged Weapons",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Steel Ranged Weapons",
+     "goldCost": 100,
+     "lumberCost": 100,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Thorium Ranged Weapons",
+     "goldCost": 150,
+     "lumberCost": 175,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Arcanite Ranged Weapons",
+     "goldCost": 200,
+     "lumberCost": 250,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     50
+    ],
+    "lumber": [
+     100,
+     75
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rora",
+    "revid": 886795,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rora"
+   },
+   "researchedAt": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ]
+  },
+  {
+   "id": "Rorb",
+   "idSource": "liquipedia:template",
+   "name": "Reinforced Defenses",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Reinforced Defenses",
+     "goldCost": 75,
+     "lumberCost": 175,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     75,
+     0
+    ],
+    "lumber": [
+     175,
+     0
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rorb",
+    "revid": 288567,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rorb"
+   },
+   "researchedAt": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ]
+  },
+  {
+   "id": "Rosp",
+   "idSource": "liquipedia:template",
+   "name": "Spiked Barricades",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Spiked Barricades",
+     "goldCost": 25,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Spiked Barricades",
+     "goldCost": 50,
+     "lumberCost": 100,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     25,
+     25
+    ],
+    "lumber": [
+     75,
+     25
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rosp",
+    "revid": 277576,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rosp"
+   },
+   "researchedAt": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ]
+  },
+  {
+   "id": "Rost",
+   "idSource": "liquipedia:template",
+   "name": "Shaman Adept Training",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Shaman Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Shaman Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rost",
+    "revid": 1025022,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rost"
+   },
+   "researchedAt": [
+    {
+     "name": "Spirit Lodge",
+     "id": "osld"
+    }
+   ]
+  },
+  {
+   "id": "Rotr",
+   "idSource": "liquipedia:template",
+   "name": "Troll Regeneration",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Troll Regeneration",
+     "goldCost": 100,
+     "lumberCost": 100,
+     "researchTimeSec": 35,
+     "requirements": [
+      {
+       "name": "Stronghold",
+       "id": "ostr"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     35,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rotr",
+    "revid": 948840,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rotr"
+   },
+   "researchedAt": [
+    {
+     "name": "Barracks (Orc)",
+     "id": "obar"
+    }
+   ]
+  },
+  {
+   "id": "Rovs",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aven",
+   "name": "Envenomed Spears",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Envenomed Spears",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aven",
+    "revid": 975014,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aven"
+   },
+   "researchedAt": [
+    {
+     "name": "Beastiary",
+     "id": "obea"
+    }
+   ]
+  },
+  {
+   "id": "Rowd",
+   "idSource": "liquipedia:template",
+   "name": "Witch Doctor Adept Training",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Witch Doctor Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Witch Doctor Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rowd",
+    "revid": 1025023,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rowd"
+   },
+   "researchedAt": [
+    {
+     "name": "Spirit Lodge",
+     "id": "osld"
+    }
+   ]
+  },
+  {
+   "id": "Rows",
+   "idSource": "liquipedia:template",
+   "name": "Pulverize Damage Increase",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Pulverize Damage Increase",
+     "goldCost": 100,
+     "lumberCost": 175,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     175,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rows",
+    "revid": 853664,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rows"
+   },
+   "researchedAt": [
+    {
+     "name": "Tauren Totem",
+     "id": "otto"
+    }
+   ]
+  },
+  {
+   "id": "Rowt",
+   "idSource": "liquipedia:template",
+   "name": "Spirit Walker Adept Training",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Spirit Walker Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 50,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Spirit Walker Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     50,
+     10
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rowt",
+    "revid": 1025024,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rowt"
+   },
+   "researchedAt": [
+    {
+     "name": "Tauren Totem",
+     "id": "otto"
+    }
+   ]
+  },
+  {
+   "id": "Rwdm",
+   "idSource": "liquipedia:template",
+   "name": "War Drums Damage Increase",
+   "race": "orc",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "War Drums Damage Increase",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Fortress",
+       "id": "ofrt"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     150,
+     0
+    ],
+    "researchTimeSec": [
+     40,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rwdm",
+    "revid": 237550,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rwdm"
+   },
+   "researchedAt": [
+    {
+     "name": "Beastiary",
+     "id": "obea"
+    }
+   ]
+  },
+  {
+   "id": "Ruac",
+   "idSource": "w3gjs:name",
+   "abilityId": "Acan",
+   "name": "Cannibalize",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Cannibalize",
+     "goldCost": 50,
+     "lumberCost": null,
+     "researchTimeSec": 15,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Acan",
+    "revid": 852878,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Acan"
+   },
+   "researchedAt": [
+    {
+     "name": "Crypt",
+     "id": "usep"
+    }
+   ],
+   "nullFields": {
+    "lumberCost": "not on the Liquipedia card for at least one level"
+   }
+  },
+  {
+   "id": "Ruar",
+   "idSource": "liquipedia:template",
+   "name": "Unholy Armor",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Unholy Armor",
+     "goldCost": 125,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Unholy Armor",
+     "goldCost": 200,
+     "lumberCost": 150,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Unholy Armor",
+     "goldCost": 275,
+     "lumberCost": 250,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     75
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Ruar",
+    "revid": 309564,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Ruar"
+   },
+   "researchedAt": [
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ]
+  },
+  {
+   "id": "Ruba",
+   "idSource": "liquipedia:template",
+   "name": "Banshee Adept Training",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Banshee Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Banshee Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Ruba",
+    "revid": 1025028,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Ruba"
+   },
+   "researchedAt": [
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    }
+   ]
+  },
+  {
+   "id": "Rubu",
+   "idSource": "w3gjs:name",
+   "abilityId": "Abu2",
+   "name": "Burrow",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Burrow",
+     "goldCost": 75,
+     "lumberCost": 75,
+     "researchTimeSec": 30,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      },
+      {
+       "name": "Graveyard",
+       "id": "ugrv"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Abu2",
+    "revid": 975031,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Abu2"
+   },
+   "researchedAt": [
+    {
+     "name": "Crypt",
+     "id": "usep"
+    }
+   ]
+  },
+  {
+   "id": "Rucr",
+   "idSource": "liquipedia:template",
+   "name": "Creature Carapace",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Creature Carapace",
+     "goldCost": 150,
+     "lumberCost": 75,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Creature Carapace",
+     "goldCost": 200,
+     "lumberCost": 200,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Creature Carapace",
+     "goldCost": 250,
+     "lumberCost": 325,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     50
+    ],
+    "lumber": [
+     75,
+     125
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rucr",
+    "revid": 309565,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rucr"
+   },
+   "researchedAt": [
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ]
+  },
+  {
+   "id": "Ruex",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aexh",
+   "name": "Exhume Corpses",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Exhume Corpses",
+     "goldCost": 75,
+     "lumberCost": 50,
+     "researchTimeSec": 20,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aexh",
+    "revid": 283901,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aexh"
+   },
+   "researchedAt": [
+    {
+     "name": "Slaughterhouse",
+     "id": "uslh"
+    }
+   ]
+  },
+  {
+   "id": "Rufb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Afrz",
+   "name": "Freezing Breath",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Freezing Breath",
+     "goldCost": 150,
+     "lumberCost": 225,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Afrz",
+    "revid": 924627,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Afrz"
+   },
+   "researchedAt": [
+    {
+     "name": "Boneyard",
+     "id": "ubon"
+    }
+   ]
+  },
+  {
+   "id": "Rugf",
+   "idSource": "liquipedia:template",
+   "name": "Ghoul Frenzy",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Ghoul Frenzy",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     150,
+     0
+    ],
+    "researchTimeSec": [
+     45,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rugf",
+    "revid": 184044,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rugf"
+   },
+   "researchedAt": [
+    {
+     "name": "Crypt",
+     "id": "usep"
+    }
+   ]
+  },
+  {
+   "id": "Rume",
+   "idSource": "liquipedia:template",
+   "name": "Unholy Strength",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Unholy Strength",
+     "goldCost": 125,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Unholy Strength",
+     "goldCost": 200,
+     "lumberCost": 150,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Unholy Strength",
+     "goldCost": 275,
+     "lumberCost": 250,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     125,
+     75
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rume",
+    "revid": 309566,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rume"
+   },
+   "researchedAt": [
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ]
+  },
+  {
+   "id": "Rune",
+   "idSource": "liquipedia:template",
+   "name": "Necromancer Adept Training",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Necromancer Adept Training",
+     "goldCost": 100,
+     "lumberCost": 50,
+     "researchTimeSec": 30,
+     "requirements": [],
+     "tier": 2
+    },
+    {
+     "level": 2,
+     "name": "Necromancer Master Training",
+     "goldCost": 100,
+     "lumberCost": 150,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     100,
+     0
+    ],
+    "lumber": [
+     50,
+     100
+    ],
+    "researchTimeSec": [
+     30,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rune",
+    "revid": 309484,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rune"
+   },
+   "researchedAt": [
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    }
+   ]
+  },
+  {
+   "id": "Rupc",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aap1",
+   "name": "Disease Cloud",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Disease Cloud",
+     "goldCost": 100,
+     "lumberCost": 200,
+     "researchTimeSec": 45,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aap1",
+    "revid": 978014,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aap1"
+   },
+   "researchedAt": [
+    {
+     "name": "Slaughterhouse",
+     "id": "uslh"
+    }
+   ]
+  },
+  {
+   "id": "Rupm",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aiun",
+   "name": "Backpack (Undead)",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Backpack (Undead)",
+     "goldCost": 50,
+     "lumberCost": 25,
+     "researchTimeSec": 20,
+     "requirements": [],
+     "tier": 1
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aiun",
+    "revid": 975043,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aiun"
+   },
+   "costSource": {
+    "page": "Template:SpellCard/UnitInventory",
+    "revid": 349601,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/UnitInventory"
+   },
+   "researchedAt": [
+    {
+     "name": "Necropolis",
+     "id": "unpl"
+    }
+   ]
+  },
+  {
+   "id": "Rura",
+   "idSource": "liquipedia:template",
+   "name": "Creature Attack",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Creature Attack",
+     "goldCost": 150,
+     "lumberCost": 50,
+     "researchTimeSec": 60,
+     "requirements": [],
+     "tier": 1
+    },
+    {
+     "level": 2,
+     "name": "Improved Creature Attack",
+     "goldCost": 200,
+     "lumberCost": 125,
+     "researchTimeSec": 75,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      }
+     ],
+     "tier": 2
+    },
+    {
+     "level": 3,
+     "name": "Advanced Creature Attack",
+     "goldCost": 250,
+     "lumberCost": 200,
+     "researchTimeSec": 90,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     50
+    ],
+    "lumber": [
+     50,
+     75
+    ],
+    "researchTimeSec": [
+     60,
+     15
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rura",
+    "revid": 309567,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rura"
+   },
+   "researchedAt": [
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ]
+  },
+  {
+   "id": "Rusf",
+   "idSource": "w3gjs:name",
+   "abilityId": "Astn",
+   "name": "Stone Form",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Stone Form",
+     "goldCost": 75,
+     "lumberCost": 150,
+     "researchTimeSec": 40,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      },
+      {
+       "name": "Graveyard",
+       "id": "ugrv"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Astn",
+    "revid": 49078,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Astn"
+   },
+   "researchedAt": [
+    {
+     "name": "Crypt",
+     "id": "usep"
+    }
+   ]
+  },
+  {
+   "id": "Rusl",
+   "idSource": "liquipedia:template",
+   "name": "Skeletal Longevity",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Skeletal Longevity",
+     "goldCost": 75,
+     "lumberCost": 75,
+     "researchTimeSec": 15,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     75,
+     0
+    ],
+    "lumber": [
+     75,
+     0
+    ],
+    "researchTimeSec": [
+     15,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rusl",
+    "revid": 118597,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rusl"
+   },
+   "researchedAt": [
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    }
+   ]
+  },
+  {
+   "id": "Rusm",
+   "idSource": "liquipedia:template",
+   "name": "Skeletal Mastery",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Skeletal Mastery",
+     "goldCost": 150,
+     "lumberCost": 100,
+     "researchTimeSec": 30,
+     "requirements": [],
+     "tier": 2
+    }
+   ],
+   "costFormula": {
+    "gold": [
+     150,
+     0
+    ],
+    "lumber": [
+     100,
+     0
+    ],
+    "researchTimeSec": [
+     30,
+     0
+    ],
+    "note": "level N = base + (N-1) * increment (UpgradeCard gold/goldupgrade etc.)"
+   },
+   "source": {
+    "page": "Template:UpgradeCard/Rusm",
+    "revid": 886784,
+    "url": "https://liquipedia.net/warcraft/Template:UpgradeCard/Rusm"
+   },
+   "researchedAt": [
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    }
+   ]
+  },
+  {
+   "id": "Rusp",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aave",
+   "name": "Destroyer Form",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Destroyer Form",
+     "goldCost": 75,
+     "lumberCost": 150,
+     "researchTimeSec": 60,
+     "requirements": [
+      {
+       "name": "Black Citadel",
+       "id": "unp2"
+      },
+      {
+       "name": "Tomb of Relics",
+       "id": "utom"
+      }
+     ],
+     "tier": 3
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aave",
+    "revid": 48580,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aave"
+   },
+   "researchedAt": [
+    {
+     "name": "Slaughterhouse",
+     "id": "uslh"
+    }
+   ]
+  },
+  {
+   "id": "Ruwb",
+   "idSource": "w3gjs:name",
+   "abilityId": "Aweb",
+   "name": "Web",
+   "race": "undead",
+   "type": "upgrade",
+   "levels": [
+    {
+     "level": 1,
+     "name": "Web",
+     "goldCost": 100,
+     "lumberCost": 100,
+     "researchTimeSec": 30,
+     "requirements": [
+      {
+       "name": "Halls of the Dead",
+       "id": "unp1"
+      },
+      {
+       "name": "Graveyard",
+       "id": "ugrv"
+      }
+     ],
+     "tier": 2
+    }
+   ],
+   "source": {
+    "page": "Template:SpellCard/Aweb",
+    "revid": 924624,
+    "url": "https://liquipedia.net/warcraft/Template:SpellCard/Aweb"
+   },
+   "researchedAt": [
+    {
+     "name": "Crypt",
+     "id": "usep"
+    }
+   ]
+  }
+ ]
+}

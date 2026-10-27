@@ -1,0 +1,356 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0a41801d5ffcb2ad7549e: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0a41801d5ffcb2ad7549e.w3g",
+  "fileSize": 455753,
+  "sha256": "26e8bb8b11e36a4f48a525e353f91b746d264026c54fd2bfca4bb389db523670",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1626325,
+  "gameTimeSumMs": 1626325,
+  "matchEndMs": 1579675,
+  "gameName": "w3c-20-rwnBZZEYIi",
+  "map": {
+    "path": "maps\\W3Champions\\3_w3c_260919_1153_LastRefuge_v1.5.w3x",
+    "name": "LastRefuge_v1.5",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "chineseninja#11783",
+      "team": 0,
+      "color": 5,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 7430,
+      "actionCounts": {
+        "0x10": 171,
+        "0x11": 40,
+        "0x12": 3468,
+        "0x13": 8,
+        "0x14": 61,
+        "0x16": 2590,
+        "0x17": 44,
+        "0x18": 920,
+        "0x19": 1934,
+        "0x1a": 1934,
+        "0x1b": 6409,
+        "0x61": 3,
+        "0x66": 9,
+        "0x67": 26,
+        "0x68": 11,
+        "0x77": 1,
+        "0x7a": 437
+      },
+      "apmW3gjs": {
+        "countedActions": 6199,
+        "lastCommandBlockMs": 1578985,
+        "apm": 236
+      },
+      "heroes": [
+        {
+          "id": "Edem",
+          "firstOrderMs": 65625,
+          "firstSkillMs": 129196,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Npbm",
+          "firstOrderMs": 333435,
+          "firstSkillMs": 334605,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 4290,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 6001,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 15300,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 23806,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34126,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 44415,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 65625,
+          "id": "Edem",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67306,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68866,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 77446,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 89685,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 100936,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 104747,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 112035,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 117796,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 107
+    },
+    {
+      "pid": 2,
+      "name": "Friday#11440",
+      "team": 1,
+      "color": 0,
+      "raceFlag": "0x02",
+      "race": "ORC",
+      "raceResolved": "ORC",
+      "commandBlocks": 3865,
+      "actionCounts": {
+        "0x10": 155,
+        "0x11": 66,
+        "0x12": 1347,
+        "0x13": 20,
+        "0x14": 4,
+        "0x16": 538,
+        "0x17": 18,
+        "0x18": 1515,
+        "0x19": 1561,
+        "0x1a": 1561,
+        "0x1b": 4326,
+        "0x1e": 3,
+        "0x61": 8,
+        "0x66": 6,
+        "0x67": 71,
+        "0x77": 1,
+        "0x7a": 487
+      },
+      "apmW3gjs": {
+        "countedActions": 3511,
+        "lastCommandBlockMs": 1578835,
+        "apm": 133
+      },
+      "heroes": [
+        {
+          "id": "Obla",
+          "firstOrderMs": 67815,
+          "firstSkillMs": 128776,
+          "skillOrders": 6,
+          "skillsLearned": 6
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 4560,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 17505,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 21526,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 32057,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 39136,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 51886,
+          "id": "ofor",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 62055,
+          "id": "ovln",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 64186,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 64367,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67815,
+          "id": "Obla",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67966,
+          "id": "Obla",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 77295,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 82996,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 102826,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 107265,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 144
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1579435,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1579675,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 581,
+    "commandBlocksExact": 11295,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0a41801d5ffcb2ad7549e",
+  "apiWinnerName": "Friday#11440",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0a41801d5ffcb2ad7549e.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "note: hero Friday#11440 Obla skills 6 < api level 7 (неизрасходованные очки)",
+      "note: hero order chineseninja#11783: replay ['Edem', 'Npbm'] vs api ['Npbm', 'Edem'] (API не хронологичен)",
+      "duration: header 1626.3 s, matchEnd 1579.675 s vs api 2243 s (delta header -616.7 s)"
+    ],
+    "apiDurationInSeconds": 2243,
+    "apiMapName": "Last Refuge"
+  }
+}

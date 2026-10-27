@@ -1,0 +1,3645 @@
+{
+ "schemaVersion": 1,
+ "patch": "3.0.1",
+ "source": "Liquipedia Warcraft Wiki, https://liquipedia.net/warcraft/",
+ "license": "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/",
+ "count": 67,
+ "entities": [
+  {
+   "id": "halt",
+   "idSource": "liquipedia",
+   "name": "Altar of Kings",
+   "race": "human",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Altar of Kings",
+    "revid": 922440,
+    "url": "https://liquipedia.net/warcraft/Altar_of_Kings"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Archmage",
+     "id": "Hamg"
+    },
+    {
+     "name": "Blood Mage",
+     "id": "Hblm"
+    },
+    {
+     "name": "Mountain King",
+     "id": "Hmkg"
+    },
+    {
+     "name": "Paladin",
+     "id": "Hpal"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Castle",
+     "id": "hcas"
+    }
+   ],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "harm",
+   "idSource": "liquipedia",
+   "name": "Workshop",
+   "race": "human",
+   "type": "building",
+   "goldCost": 140,
+   "lumberCost": 140,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Workshop",
+    "revid": 922491,
+    "url": "https://liquipedia.net/warcraft/Workshop"
+   },
+   "requirements": [
+    {
+     "name": "Keep",
+     "id": "hkee"
+    },
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Flying Machine",
+     "id": "hgyr"
+    },
+    {
+     "name": "Mortar Team",
+     "id": "hmtm"
+    },
+    {
+     "name": "Siege Engine",
+     "id": "hrtt"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Cannon Tower",
+     "id": "hctw"
+    }
+   ],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Flare",
+     "id": "Rhfl"
+    },
+    {
+     "name": "Flak Cannons",
+     "id": "Rhfc"
+    },
+    {
+     "name": "Fragmentation Shards",
+     "id": "Rhfs"
+    },
+    {
+     "name": "Flying Machine Bombs",
+     "id": "Rhgb"
+    },
+    {
+     "name": "Barrage",
+     "id": "Rhrt"
+    }
+   ]
+  },
+  {
+   "id": "hars",
+   "idSource": "liquipedia",
+   "name": "Arcane Sanctum",
+   "race": "human",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 140,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 1050,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Arcane Sanctum",
+    "revid": 1025017,
+    "url": "https://liquipedia.net/warcraft/Arcane_Sanctum"
+   },
+   "requirements": [
+    {
+     "name": "Keep",
+     "id": "hkee"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Priest",
+     "id": "hmpr"
+    },
+    {
+     "name": "Sorceress",
+     "id": "hsor"
+    },
+    {
+     "name": "Spell Breaker",
+     "id": "hspt"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Priest Adept Training",
+     "id": "Rhpt"
+    },
+    {
+     "name": "Sorceress Adept Training",
+     "id": "Rhst"
+    },
+    {
+     "name": "Magic Sentry",
+     "id": "Rhse"
+    },
+    {
+     "name": "Control Magic",
+     "id": "Rhss"
+    }
+   ]
+  },
+  {
+   "id": "hatw",
+   "idSource": "liquipedia",
+   "name": "Arcane Tower",
+   "race": "human",
+   "type": "building",
+   "goldCost": 100,
+   "lumberCost": 70,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 50,
+   "hp": 500,
+   "armor": 5,
+   "armorType": "large",
+   "level": 1,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Arcane Tower",
+    "revid": 922443,
+    "url": "https://liquipedia.net/warcraft/Arcane_Tower"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "upgradesFrom": {
+    "name": "Scout Tower",
+    "id": "hwtw"
+   },
+   "upgradeCost": {
+    "goldCost": 70,
+    "lumberCost": 50,
+    "derived": true
+   },
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "hbar",
+   "idSource": "liquipedia",
+   "name": "Barracks",
+   "race": "human",
+   "type": "building",
+   "goldCost": 160,
+   "lumberCost": 60,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Barracks (Human)",
+    "revid": 975003,
+    "url": "https://liquipedia.net/warcraft/Barracks_(Human)"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Footman",
+     "id": "hfoo"
+    },
+    {
+     "name": "Rifleman",
+     "id": "hrif"
+    },
+    {
+     "name": "Knight",
+     "id": "hkni"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Animal War Training",
+     "id": "Rhan"
+    },
+    {
+     "name": "Long Rifles",
+     "id": "Rhri"
+    },
+    {
+     "name": "Sundering Blades",
+     "id": "Rhsb"
+    },
+    {
+     "name": "Defend",
+     "id": "Rhde"
+    }
+   ]
+  },
+  {
+   "id": "hbla",
+   "idSource": "liquipedia",
+   "name": "Blacksmith",
+   "race": "human",
+   "type": "building",
+   "goldCost": 140,
+   "lumberCost": 40,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Blacksmith",
+    "revid": 922449,
+    "url": "https://liquipedia.net/warcraft/Blacksmith"
+   },
+   "requirements": [
+    {
+     "name": "Town Hall",
+     "id": "htow"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    },
+    {
+     "name": "Cannon Tower",
+     "id": "hctw"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Iron Plating",
+     "id": "Rhar"
+    },
+    {
+     "name": "Studded Leather Armor",
+     "id": "Rhla"
+    },
+    {
+     "name": "Iron Forged Swords",
+     "id": "Rhme"
+    },
+    {
+     "name": "Black Gunpowder",
+     "id": "Rhra"
+    }
+   ]
+  },
+  {
+   "id": "hcas",
+   "idSource": "liquipedia",
+   "name": "Castle",
+   "race": "human",
+   "type": "building",
+   "goldCost": 1025,
+   "lumberCost": 625,
+   "foodCost": 0,
+   "foodProvided": 16,
+   "buildTimeSec": 140,
+   "hp": 2500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Castle",
+    "revid": 922437,
+    "url": "https://liquipedia.net/warcraft/Castle"
+   },
+   "requirements": [
+    {
+     "name": "Altar of Kings",
+     "id": "halt"
+    }
+   ],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Knight",
+     "id": "hkni"
+    },
+    {
+     "name": "Siege Engine",
+     "id": "hrtt"
+    },
+    {
+     "name": "Gryphon Rider",
+     "id": "hgry"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Keep",
+    "id": "hkee"
+   },
+   "upgradeCost": {
+    "goldCost": 320,
+    "lumberCost": 210,
+    "derived": true
+   },
+   "tier": 3,
+   "researches": []
+  },
+  {
+   "id": "hctw",
+   "idSource": "liquipedia",
+   "name": "Cannon Tower",
+   "race": "human",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 120,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 65,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Cannon Tower",
+    "revid": 922451,
+    "url": "https://liquipedia.net/warcraft/Cannon_Tower"
+   },
+   "requirements": [
+    {
+     "name": "Workshop",
+     "id": "harm"
+    }
+   ],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "upgradesFrom": {
+    "name": "Scout Tower",
+    "id": "hwtw"
+   },
+   "upgradeCost": {
+    "goldCost": 120,
+    "lumberCost": 100,
+    "derived": true
+   },
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "hgra",
+   "idSource": "liquipedia",
+   "name": "Gryphon Aviary",
+   "race": "human",
+   "type": "building",
+   "goldCost": 140,
+   "lumberCost": 150,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 75,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Gryphon Aviary",
+    "revid": 922464,
+    "url": "https://liquipedia.net/warcraft/Gryphon_Aviary"
+   },
+   "requirements": [
+    {
+     "name": "Keep",
+     "id": "hkee"
+    },
+    {
+     "name": "Lumber Mill",
+     "id": "hlum"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Dragonhawk Rider",
+     "id": "hdhw"
+    },
+    {
+     "name": "Gryphon Rider",
+     "id": "hgry"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Cloud",
+     "id": "Rhcd"
+    },
+    {
+     "name": "Storm Hammers",
+     "id": "Rhhb"
+    }
+   ]
+  },
+  {
+   "id": "hgtw",
+   "idSource": "liquipedia",
+   "name": "Guard Tower",
+   "race": "human",
+   "type": "building",
+   "goldCost": 100,
+   "lumberCost": 70,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 50,
+   "hp": 500,
+   "armor": 5,
+   "armorType": "large",
+   "level": 1,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Guard Tower",
+    "revid": 922465,
+    "url": "https://liquipedia.net/warcraft/Guard_Tower"
+   },
+   "requirements": [
+    {
+     "name": "Lumber Mill",
+     "id": "hlum"
+    }
+   ],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "upgradesFrom": {
+    "name": "Scout Tower",
+    "id": "hwtw"
+   },
+   "upgradeCost": {
+    "goldCost": 70,
+    "lumberCost": 50,
+    "derived": true
+   },
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "hhou",
+   "idSource": "liquipedia",
+   "name": "Farm",
+   "race": "human",
+   "type": "building",
+   "goldCost": 80,
+   "lumberCost": 20,
+   "foodCost": 0,
+   "foodProvided": 6,
+   "buildTimeSec": 35,
+   "hp": 500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Farm",
+    "revid": 922455,
+    "url": "https://liquipedia.net/warcraft/Farm"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "hkee",
+   "idSource": "liquipedia",
+   "name": "Keep",
+   "race": "human",
+   "type": "building",
+   "goldCost": 705,
+   "lumberCost": 415,
+   "foodCost": 0,
+   "foodProvided": 14,
+   "buildTimeSec": 140,
+   "hp": 2000,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Keep",
+    "revid": 922469,
+    "url": "https://liquipedia.net/warcraft/Keep"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Castle",
+     "id": "hcas"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Arcane Sanctum",
+     "id": "hars"
+    },
+    {
+     "name": "Workshop",
+     "id": "harm"
+    },
+    {
+     "name": "Gryphon Aviary",
+     "id": "hgra"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Town Hall",
+    "id": "htow"
+   },
+   "upgradeCost": {
+    "goldCost": 320,
+    "lumberCost": 210,
+    "derived": true
+   },
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "hlum",
+   "idSource": "liquipedia",
+   "name": "Lumber Mill",
+   "race": "human",
+   "type": "building",
+   "goldCost": 120,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Lumber Mill",
+    "revid": 922470,
+    "url": "https://liquipedia.net/warcraft/Lumber_Mill"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Guard Tower",
+     "id": "hgtw"
+    },
+    {
+     "name": "Gryphon Aviary",
+     "id": "hgra"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Improved Masonry",
+     "id": "Rhac"
+    },
+    {
+     "name": "Improved Lumber Harvesting",
+     "id": "Rhlh"
+    }
+   ]
+  },
+  {
+   "id": "htow",
+   "idSource": "liquipedia",
+   "name": "Town Hall",
+   "race": "human",
+   "type": "building",
+   "goldCost": 385,
+   "lumberCost": 205,
+   "foodCost": 0,
+   "foodProvided": 12,
+   "buildTimeSec": 180,
+   "hp": 1500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Town Hall",
+    "revid": 1027411,
+    "url": "https://liquipedia.net/warcraft/Town_Hall"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Keep",
+     "id": "hkee"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Blacksmith",
+     "id": "hbla"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Backpack (Human)",
+     "id": "Rhpm"
+    }
+   ]
+  },
+  {
+   "id": "hvlt",
+   "idSource": "liquipedia",
+   "name": "Arcane Vault",
+   "race": "human",
+   "type": "building",
+   "goldCost": 130,
+   "lumberCost": 30,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 485,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Arcane Vault",
+    "revid": 977548,
+    "url": "https://liquipedia.net/warcraft/Arcane_Vault"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Spell Breaker",
+     "id": "hspt"
+    }
+   ],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "hwtw",
+   "idSource": "liquipedia",
+   "name": "Scout Tower",
+   "race": "human",
+   "type": "building",
+   "goldCost": 30,
+   "lumberCost": 20,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 25,
+   "hp": 300,
+   "armor": 0,
+   "armorType": "small",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Scout Tower",
+    "revid": 922478,
+    "url": "https://liquipedia.net/warcraft/Scout_Tower"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peasant",
+     "id": "hpea"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [
+    {
+     "name": "Guard Tower",
+     "id": "hgtw"
+    },
+    {
+     "name": "Cannon Tower",
+     "id": "hctw"
+    },
+    {
+     "name": "Arcane Tower",
+     "id": "hatw"
+    }
+   ],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nfnp",
+   "idSource": "liquipedia",
+   "name": "Fountain of Power",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Fountain of Power",
+    "revid": 946648,
+    "url": "https://liquipedia.net/warcraft/Fountain_of_Power"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nfoh",
+   "idSource": "liquipedia",
+   "name": "Fountain of Health",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Fountain of Health",
+    "revid": 922457,
+    "url": "https://liquipedia.net/warcraft/Fountain_of_Health"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ngad",
+   "idSource": "liquipedia",
+   "name": "Goblin Laboratory",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Goblin Laboratory",
+    "revid": 922459,
+    "url": "https://liquipedia.net/warcraft/Goblin_Laboratory"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Goblin Sapper",
+     "id": "ngsp"
+    },
+    {
+     "name": "Goblin Shredder",
+     "id": "ngir"
+    },
+    {
+     "name": "Goblin Zeppelin",
+     "id": "nzep"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ngm",
+   "idSource": "liquipedia",
+   "name": "Gold Mine",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 0,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "None"
+   ],
+   "source": {
+    "page": "Gold Mine",
+    "revid": 955033,
+    "url": "https://liquipedia.net/warcraft/Gold_Mine"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ngme",
+   "idSource": "liquipedia",
+   "name": "Goblin Merchant",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Goblin Merchant",
+    "revid": 922460,
+    "url": "https://liquipedia.net/warcraft/Goblin_Merchant"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nmer",
+   "idSource": "liquipedia",
+   "name": "Mercenary Camp",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Mercenary Camp",
+    "revid": 1063770,
+    "url": "https://liquipedia.net/warcraft/Mercenary_Camp"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nmoo",
+   "idSource": "liquipedia",
+   "name": "Fountain of Mana",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Fountain of Mana",
+    "revid": 922458,
+    "url": "https://liquipedia.net/warcraft/Fountain_of_Mana"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nmrk",
+   "idSource": "liquipedia",
+   "name": "Marketplace",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Marketplace",
+    "revid": 966846,
+    "url": "https://liquipedia.net/warcraft/Marketplace"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "nshp",
+   "idSource": "liquipedia",
+   "name": "Goblin Shipyard",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Goblin Shipyard",
+    "revid": 922461,
+    "url": "https://liquipedia.net/warcraft/Goblin_Shipyard"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Transport Ship",
+     "id": "nbot"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ntav",
+   "idSource": "liquipedia",
+   "name": "Tavern",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "neutral"
+   ],
+   "source": {
+    "page": "Tavern",
+    "revid": 922484,
+    "url": "https://liquipedia.net/warcraft/Tavern"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Alchemist",
+     "id": "Nalc"
+    },
+    {
+     "name": "Naga Sea Witch",
+     "id": "Nngs"
+    },
+    {
+     "name": "Tinker",
+     "id": "Ntin"
+    },
+    {
+     "name": "Beastmaster",
+     "id": "Nbst"
+    },
+    {
+     "name": "Dark Ranger",
+     "id": "Nbrn"
+    },
+    {
+     "name": "Firelord",
+     "id": "Nfir"
+    },
+    {
+     "name": "Pandaren Brewmaster",
+     "id": "Npbm"
+    },
+    {
+     "name": "Pit Lord",
+     "id": "Nplh"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [],
+   "possiblyStale": {
+    "patches": [
+     "3.0.0",
+     "3.0.1"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "nwgt",
+   "idSource": "liquipedia",
+   "name": "Way Gate",
+   "race": "neutral",
+   "type": "building",
+   "goldCost": 50,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 3,
+   "hp": 150000,
+   "armor": 0,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical",
+    "Neutral",
+    "Walkable"
+   ],
+   "source": {
+    "page": "Way Gate",
+    "revid": 1007044,
+    "url": "https://liquipedia.net/warcraft/Way_Gate"
+   },
+   "raceLiquipedia": "other",
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "eaoe",
+   "idSource": "liquipedia",
+   "name": "Ancient of Lore",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 155,
+   "lumberCost": 145,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 900,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "Ancient"
+   ],
+   "source": {
+    "page": "Ancient of Lore",
+    "revid": 917353,
+    "url": "https://liquipedia.net/warcraft/Ancient_of_Lore"
+   },
+   "requirements": [
+    {
+     "name": "Tree of Ages",
+     "id": "etoa"
+    },
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Dryad",
+     "id": "edry"
+    },
+    {
+     "name": "Druid of the Claw",
+     "id": "edoc"
+    },
+    {
+     "name": "Mountain Giant",
+     "id": "emtg"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Druid of the Claw Adept Training",
+     "id": "Redc"
+    },
+    {
+     "name": "Mark of the Claw",
+     "id": "Reeb"
+    },
+    {
+     "name": "Abolish Magic",
+     "id": "Resi"
+    },
+    {
+     "name": "Resistant Skin",
+     "id": "Rers"
+    },
+    {
+     "name": "Hardened Skin",
+     "id": "Rehs"
+    }
+   ]
+  },
+  {
+   "id": "eaom",
+   "idSource": "liquipedia",
+   "name": "Ancient of War",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 60,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "Ancient"
+   ],
+   "source": {
+    "page": "Ancient of War",
+    "revid": 917346,
+    "url": "https://liquipedia.net/warcraft/Ancient_of_War"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Archer",
+     "id": "earc"
+    },
+    {
+     "name": "Huntress",
+     "id": "esen"
+    },
+    {
+     "name": "Glaive Thrower",
+     "id": "ebal"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Improved Bows",
+     "id": "Reib"
+    },
+    {
+     "name": "Marksmanship",
+     "id": "Remk"
+    },
+    {
+     "name": "Sentinel",
+     "id": "Resc"
+    },
+    {
+     "name": "Vorpal Blades",
+     "id": "Repb"
+    },
+    {
+     "name": "Moon Glaive",
+     "id": "Remg"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2",
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "eaow",
+   "idSource": "liquipedia",
+   "name": "Ancient of Wind",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 140,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "Ancient"
+   ],
+   "source": {
+    "page": "Ancient of Wind",
+    "revid": 988476,
+    "url": "https://liquipedia.net/warcraft/Ancient_of_Wind"
+   },
+   "requirements": [
+    {
+     "name": "Tree of Ages",
+     "id": "etoa"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Hippogryph",
+     "id": "ehip"
+    },
+    {
+     "name": "Druid of the Talon",
+     "id": "edot"
+    },
+    {
+     "name": "Faerie Dragon",
+     "id": "efdr"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Druid of the Talon Adept Training",
+     "id": "Redt"
+    },
+    {
+     "name": "Mark of the Talon",
+     "id": "Reec"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "eate",
+   "idSource": "liquipedia",
+   "name": "Altar of Elders",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Altar of Elders",
+    "revid": 922439,
+    "url": "https://liquipedia.net/warcraft/Altar_of_Elders"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "eden",
+   "idSource": "liquipedia",
+   "name": "Ancient of Wonders",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 90,
+   "lumberCost": 30,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 450,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "Ancient"
+   ],
+   "source": {
+    "page": "Ancient of Wonders",
+    "revid": 1006032,
+    "url": "https://liquipedia.net/warcraft/Ancient_of_Wonders"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Backpack",
+     "id": null
+    },
+    {
+     "name": "Mountain Giant",
+     "id": "emtg"
+    },
+    {
+     "name": "Hardened Skin",
+     "id": null
+    },
+    {
+     "name": "Resistant Skin",
+     "id": null
+    },
+    {
+     "name": "Faerie Dragon",
+     "id": "efdr"
+    }
+   ],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "edob",
+   "idSource": "liquipedia",
+   "name": "Hunter's Hall",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 210,
+   "lumberCost": 100,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1100,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Hunter's Hall",
+    "revid": 922468,
+    "url": "https://liquipedia.net/warcraft/Hunter's_Hall"
+   },
+   "requirements": [
+    {
+     "name": "Tree of Life",
+     "id": "etol"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Moon Armor",
+     "id": "Rema"
+    },
+    {
+     "name": "Reinforced Hides",
+     "id": "Rerh"
+    },
+    {
+     "name": "Strength of the Moon",
+     "id": "Resm"
+    },
+    {
+     "name": "Strength of the Wild",
+     "id": "Resw"
+    },
+    {
+     "name": "Ultravision",
+     "id": "Reuv"
+    },
+    {
+     "name": "Well Spring",
+     "id": "Rews"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2",
+     "2.0.2.22796"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "edos",
+   "idSource": "liquipedia",
+   "name": "Chimaera Roost",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 140,
+   "lumberCost": 190,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 80,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Chimaera Roost",
+    "revid": 922452,
+    "url": "https://liquipedia.net/warcraft/Chimaera_Roost"
+   },
+   "requirements": [
+    {
+     "name": "Tree of Eternity",
+     "id": "etoe"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Chimaera",
+     "id": "echm"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 3,
+   "researches": [
+    {
+     "name": "Corrosive Breath",
+     "id": "Recb"
+    }
+   ]
+  },
+  {
+   "id": "egol",
+   "idSource": "liquipedia",
+   "name": "Entangled Gold Mine",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 0,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 800,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Entangled Gold Mine",
+    "revid": 922454,
+    "url": "https://liquipedia.net/warcraft/Entangled_Gold_Mine"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "emow",
+   "idSource": "liquipedia",
+   "name": "Moon Well",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 40,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 50,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Moon Well",
+    "revid": 978111,
+    "url": "https://liquipedia.net/warcraft/Moon_Well"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "etoa",
+   "idSource": "liquipedia",
+   "name": "Tree of Ages",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 660,
+   "lumberCost": 365,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 140,
+   "hp": 1700,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 2,
+   "classes": [
+    "TownHall",
+    "Ancient"
+   ],
+   "source": {
+    "page": "Tree of Ages",
+    "revid": 917360,
+    "url": "https://liquipedia.net/warcraft/Tree_of_Ages"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Tree of Eternity",
+     "id": "etoe"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Ancient of Wind",
+     "id": "eaow"
+    },
+    {
+     "name": "Ancient of Lore",
+     "id": "eaoe"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Tree of Life",
+    "id": "etol"
+   },
+   "upgradeCost": {
+    "goldCost": 320,
+    "lumberCost": 180,
+    "derived": true
+   },
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "etoe",
+   "idSource": "liquipedia",
+   "name": "Tree of Eternity",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 990,
+   "lumberCost": 565,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 140,
+   "hp": 2000,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 3,
+   "classes": [
+    "TownHall",
+    "Ancient"
+   ],
+   "source": {
+    "page": "Tree of Eternity",
+    "revid": 917362,
+    "url": "https://liquipedia.net/warcraft/Tree_of_Eternity"
+   },
+   "requirements": [
+    {
+     "name": "Altar of Elders",
+     "id": "eate"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Chimaera Roost",
+     "id": "edos"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Tree of Ages",
+    "id": "etoa"
+   },
+   "upgradeCost": {
+    "goldCost": 330,
+    "lumberCost": 200,
+    "derived": true
+   },
+   "tier": 3,
+   "researches": []
+  },
+  {
+   "id": "etol",
+   "idSource": "liquipedia",
+   "name": "Tree of Life",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 340,
+   "lumberCost": 185,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 120,
+   "hp": 1300,
+   "armor": 2,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "TownHall",
+    "Ancient"
+   ],
+   "source": {
+    "page": "Tree of Life",
+    "revid": 917364,
+    "url": "https://liquipedia.net/warcraft/Tree_of_Life"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Tree of Ages",
+     "id": "etoa"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Nature's Blessing",
+     "id": "Renb"
+    },
+    {
+     "name": "Backpack (Night Elf)",
+     "id": "Repm"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "etrp",
+   "idSource": "liquipedia",
+   "name": "Ancient Protector",
+   "race": "nightelf",
+   "type": "building",
+   "goldCost": 135,
+   "lumberCost": 80,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 55,
+   "hp": 600,
+   "armor": 1,
+   "armorType": "fort",
+   "level": 3,
+   "classes": [
+    "Ancient"
+   ],
+   "source": {
+    "page": "Ancient Protector",
+    "revid": 993176,
+    "url": "https://liquipedia.net/warcraft/Ancient_Protector"
+   },
+   "requirements": [
+    {
+     "name": "Hunter's Hall",
+     "id": "edob"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Wisp",
+     "id": "ewsp"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "oalt",
+   "idSource": "liquipedia",
+   "name": "Altar of Storms",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Altar of Storms",
+    "revid": 922441,
+    "url": "https://liquipedia.net/warcraft/Altar_of_Storms"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Blademaster",
+     "id": "Obla"
+    },
+    {
+     "name": "Far Seer",
+     "id": "Ofar"
+    },
+    {
+     "name": "Tauren Chieftain",
+     "id": "Otch"
+    },
+    {
+     "name": "Shadow Hunter",
+     "id": "Oshd"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Fortress",
+     "id": "ofrt"
+    }
+   ],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "obar",
+   "idSource": "liquipedia",
+   "name": "Barracks",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Barracks (Orc)",
+    "revid": 1072866,
+    "url": "https://liquipedia.net/warcraft/Barracks_(Orc)"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Grunt",
+     "id": "ogru"
+    },
+    {
+     "name": "Troll Headhunter",
+     "id": "ohun"
+    },
+    {
+     "name": "Demolisher",
+     "id": "ocat"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Berserker Upgrade",
+     "id": "Robk"
+    },
+    {
+     "name": "Brute Strength",
+     "id": "Robs"
+    },
+    {
+     "name": "Troll Regeneration",
+     "id": "Rotr"
+    },
+    {
+     "name": "Burning Oil",
+     "id": "Robf"
+    }
+   ]
+  },
+  {
+   "id": "obea",
+   "idSource": "liquipedia",
+   "name": "Beastiary",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 145,
+   "lumberCost": 140,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1100,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Beastiary",
+    "revid": 922447,
+    "url": "https://liquipedia.net/warcraft/Beastiary"
+   },
+   "requirements": [
+    {
+     "name": "Stronghold",
+     "id": "ostr"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Raider",
+     "id": "orai"
+    },
+    {
+     "name": "Wind Rider",
+     "id": "owyv"
+    },
+    {
+     "name": "Kodo Beast",
+     "id": "okod"
+    },
+    {
+     "name": "Troll Batrider",
+     "id": "otbr"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "War Drums Damage Increase",
+     "id": "Rwdm"
+    },
+    {
+     "name": "Ensnare",
+     "id": "Roen"
+    },
+    {
+     "name": "Liquid Fire",
+     "id": "Rolf"
+    },
+    {
+     "name": "Envenomed Spears",
+     "id": "Rovs"
+    }
+   ]
+  },
+  {
+   "id": "ofor",
+   "idSource": "liquipedia",
+   "name": "War Mill",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 205,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 1000,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "War Mill",
+    "revid": 922489,
+    "url": "https://liquipedia.net/warcraft/War_Mill"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Watch Tower",
+     "id": "owtw"
+    },
+    {
+     "name": "Tauren",
+     "id": "otau"
+    },
+    {
+     "name": "Kodo Beast",
+     "id": "okod"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Steel Armor",
+     "id": "Roar"
+    },
+    {
+     "name": "Steel Melee Weapons",
+     "id": "Rome"
+    },
+    {
+     "name": "Steel Ranged Weapons",
+     "id": "Rora"
+    },
+    {
+     "name": "Reinforced Defenses",
+     "id": "Rorb"
+    },
+    {
+     "name": "Spiked Barricades",
+     "id": "Rosp"
+    }
+   ]
+  },
+  {
+   "id": "ofrt",
+   "idSource": "liquipedia",
+   "name": "Fortress",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 1025,
+   "lumberCost": 565,
+   "foodCost": 0,
+   "foodProvided": 11,
+   "buildTimeSec": 140,
+   "hp": 2500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Fortress",
+    "revid": 922456,
+    "url": "https://liquipedia.net/warcraft/Fortress"
+   },
+   "requirements": [
+    {
+     "name": "Altar of Storms",
+     "id": "oalt"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Tauren Totem",
+     "id": "otto"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Stronghold",
+    "id": "ostr"
+   },
+   "upgradeCost": {
+    "goldCost": 325,
+    "lumberCost": 190,
+    "derived": true
+   },
+   "tier": 3,
+   "researches": []
+  },
+  {
+   "id": "ogre",
+   "idSource": "liquipedia",
+   "name": "Great Hall",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 385,
+   "lumberCost": 185,
+   "foodCost": 0,
+   "foodProvided": 11,
+   "buildTimeSec": 135,
+   "hp": 1500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Great Hall",
+    "revid": 975011,
+    "url": "https://liquipedia.net/warcraft/Great_Hall"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Stronghold",
+     "id": "ostr"
+    }
+   ],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Backpack (Orc)",
+     "id": "Ropm"
+    },
+    {
+     "name": "Pillage",
+     "id": "Ropg"
+    }
+   ]
+  },
+  {
+   "id": "osld",
+   "idSource": "liquipedia",
+   "name": "Spirit Lodge",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 135,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 800,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Spirit Lodge",
+    "revid": 922480,
+    "url": "https://liquipedia.net/warcraft/Spirit_Lodge"
+   },
+   "requirements": [
+    {
+     "name": "Stronghold",
+     "id": "ostr"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Shaman",
+     "id": "oshm"
+    },
+    {
+     "name": "Witch Doctor",
+     "id": "odoc"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Shaman Adept Training",
+     "id": "Rost"
+    },
+    {
+     "name": "Witch Doctor Adept Training",
+     "id": "Rowd"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "ostr",
+   "idSource": "liquipedia",
+   "name": "Stronghold",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 700,
+   "lumberCost": 375,
+   "foodCost": 0,
+   "foodProvided": 11,
+   "buildTimeSec": 140,
+   "hp": 2000,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Stronghold",
+    "revid": 922482,
+    "url": "https://liquipedia.net/warcraft/Stronghold"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Fortress",
+     "id": "ofrt"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Demolisher",
+     "id": "ocat"
+    },
+    {
+     "name": "Beastiary",
+     "id": "obea"
+    },
+    {
+     "name": "Spirit Lodge",
+     "id": "osld"
+    },
+    {
+     "name": "Tauren Totem",
+     "id": "otto"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Great Hall",
+    "id": "ogre"
+   },
+   "upgradeCost": {
+    "goldCost": 315,
+    "lumberCost": 190,
+    "derived": true
+   },
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "otrb",
+   "idSource": "liquipedia",
+   "name": "Orc Burrow",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 160,
+   "lumberCost": 40,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 50,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "large",
+   "level": 1,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Orc Burrow",
+    "revid": 923909,
+    "url": "https://liquipedia.net/warcraft/Orc_Burrow"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "otto",
+   "idSource": "liquipedia",
+   "name": "Tauren Totem",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 135,
+   "lumberCost": 155,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Tauren Totem",
+    "revid": 922483,
+    "url": "https://liquipedia.net/warcraft/Tauren_Totem"
+   },
+   "requirements": [
+    {
+     "name": "Stronghold",
+     "id": "ostr"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Spirit Walker",
+     "id": "ospm"
+    },
+    {
+     "name": "Tauren",
+     "id": "otau"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Pulverize Damage Increase",
+     "id": "Rows"
+    },
+    {
+     "name": "Spirit Walker Adept Training",
+     "id": "Rowt"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "ovln",
+   "idSource": "liquipedia",
+   "name": "Voodoo Lounge",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 130,
+   "lumberCost": 30,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Voodoo Lounge",
+    "revid": 977547,
+    "url": "https://liquipedia.net/warcraft/Voodoo_Lounge"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Troll Batrider",
+     "id": "otbr"
+    }
+   ],
+   "tier": 1,
+   "researches": [],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "owtw",
+   "idSource": "liquipedia",
+   "name": "Watch Tower",
+   "race": "orc",
+   "type": "building",
+   "goldCost": 110,
+   "lumberCost": 80,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 500,
+   "armor": 3,
+   "armorType": "large",
+   "level": 1,
+   "classes": [
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Watch Tower",
+    "revid": 922490,
+    "url": "https://liquipedia.net/warcraft/Watch_Tower"
+   },
+   "requirements": [
+    {
+     "name": "War Mill",
+     "id": "ofor"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Peon",
+     "id": "opeo"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "uaod",
+   "idSource": "liquipedia",
+   "name": "Altar of Darkness",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 180,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Altar of Darkness",
+    "revid": 922438,
+    "url": "https://liquipedia.net/warcraft/Altar_of_Darkness"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Crypt Lord",
+     "id": "Ucrl"
+    },
+    {
+     "name": "Death Knight",
+     "id": "Udea"
+    },
+    {
+     "name": "Dreadlord",
+     "id": "Udre"
+    },
+    {
+     "name": "Lich",
+     "id": "Ulic"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Black Citadel",
+     "id": "unp2"
+    }
+   ],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ubon",
+   "idSource": "liquipedia",
+   "name": "Boneyard",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 200,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 70,
+   "hp": 1500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Boneyard",
+    "revid": 924625,
+    "url": "https://liquipedia.net/warcraft/Boneyard"
+   },
+   "requirements": [
+    {
+     "name": "Black Citadel",
+     "id": "unp2"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Frost Wyrm",
+     "id": "ufro"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 3,
+   "researches": [
+    {
+     "name": "Freezing Breath",
+     "id": "Rufb"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "ugol",
+   "idSource": "liquipedia",
+   "name": "Haunted Gold Mine",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 225,
+   "lumberCost": 210,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 105,
+   "hp": 950,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Haunted Gold Mine",
+    "revid": 1071480,
+    "url": "https://liquipedia.net/warcraft/Haunted_Gold_Mine"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "ugrv",
+   "idSource": "liquipedia",
+   "name": "Graveyard",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 215,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 80,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Graveyard",
+    "revid": 922462,
+    "url": "https://liquipedia.net/warcraft/Graveyard"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Slaughterhouse",
+     "id": "uslh"
+    },
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    },
+    {
+     "name": "Spirit Tower",
+     "id": "uzg1"
+    }
+   ],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Unholy Armor",
+     "id": "Ruar"
+    },
+    {
+     "name": "Creature Carapace",
+     "id": "Rucr"
+    },
+    {
+     "name": "Unholy Strength",
+     "id": "Rume"
+    },
+    {
+     "name": "Creature Attack",
+     "id": "Rura"
+    }
+   ]
+  },
+  {
+   "id": "unp1",
+   "idSource": "liquipedia",
+   "name": "Halls of the Dead",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 545,
+   "lumberCost": 210,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 140,
+   "hp": 1750,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 2,
+   "classes": [
+    "TownHall",
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Halls of the Dead",
+    "revid": 922466,
+    "url": "https://liquipedia.net/warcraft/Halls_of_the_Dead"
+   },
+   "requirements": [],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Black Citadel",
+     "id": "unp2"
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Temple of the Damned",
+     "id": "utod"
+    },
+    {
+     "name": "Slaughterhouse",
+     "id": "uslh"
+    },
+    {
+     "name": "Sacrificial Pit",
+     "id": "usap"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Necropolis",
+    "id": "unpl"
+   },
+   "upgradeCost": {
+    "goldCost": 320,
+    "lumberCost": 210,
+    "derived": true
+   },
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "unp2",
+   "idSource": "liquipedia",
+   "name": "Black Citadel",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 870,
+   "lumberCost": 440,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 140,
+   "hp": 2000,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 3,
+   "classes": [
+    "TownHall",
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Black Citadel",
+    "revid": 922448,
+    "url": "https://liquipedia.net/warcraft/Black_Citadel"
+   },
+   "requirements": [
+    {
+     "name": "Altar of Darkness",
+     "id": "uaod"
+    }
+   ],
+   "producedBy": [],
+   "trains": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Boneyard",
+     "id": "ubon"
+    }
+   ],
+   "upgradesFrom": {
+    "name": "Halls of the Dead",
+    "id": "unp1"
+   },
+   "upgradeCost": {
+    "goldCost": 325,
+    "lumberCost": 230,
+    "derived": true
+   },
+   "tier": 3,
+   "researches": []
+  },
+  {
+   "id": "unpl",
+   "idSource": "liquipedia",
+   "name": "Necropolis",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 225,
+   "lumberCost": 0,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 90,
+   "hp": 1500,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "TownHall",
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Necropolis",
+    "revid": 922474,
+    "url": "https://liquipedia.net/warcraft/Necropolis"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "upgradesTo": [
+    {
+     "name": "Halls of the Dead",
+     "id": "unp1"
+    }
+   ],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Backpack (Undead)",
+     "id": "Rupm"
+    }
+   ],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "usap",
+   "idSource": "liquipedia",
+   "name": "Sacrificial Pit",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 75,
+   "lumberCost": 150,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 45,
+   "hp": 900,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Sacrificial Pit",
+    "revid": 922477,
+    "url": "https://liquipedia.net/warcraft/Sacrificial_Pit"
+   },
+   "requirements": [
+    {
+     "name": "Halls of the Dead",
+     "id": "unp1"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": []
+  },
+  {
+   "id": "usep",
+   "idSource": "liquipedia",
+   "name": "Crypt",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 200,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1300,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Crypt",
+    "revid": 974983,
+    "url": "https://liquipedia.net/warcraft/Crypt"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Ghoul",
+     "id": "ugho"
+    },
+    {
+     "name": "Crypt Fiend",
+     "id": "ucry"
+    },
+    {
+     "name": "Gargoyle",
+     "id": "ugar"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [
+    {
+     "name": "Ghoul Frenzy",
+     "id": "Rugf"
+    },
+    {
+     "name": "Burrow",
+     "id": "Rubu"
+    },
+    {
+     "name": "Cannibalize",
+     "id": "Ruac"
+    },
+    {
+     "name": "Stone Form",
+     "id": "Rusf"
+    },
+    {
+     "name": "Web",
+     "id": "Ruwb"
+    }
+   ]
+  },
+  {
+   "id": "uslh",
+   "idSource": "liquipedia",
+   "name": "Slaughterhouse",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 140,
+   "lumberCost": 135,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1200,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Slaughterhouse",
+    "revid": 922479,
+    "url": "https://liquipedia.net/warcraft/Slaughterhouse"
+   },
+   "requirements": [
+    {
+     "name": "Halls of the Dead",
+     "id": "unp1"
+    },
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Abomination",
+     "id": "uabo"
+    },
+    {
+     "name": "Meat Wagon",
+     "id": "umtw"
+    },
+    {
+     "name": "Obsidian Statue",
+     "id": "uobs"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Disease Cloud",
+     "id": "Rupc"
+    },
+    {
+     "name": "Destroyer Form",
+     "id": "Rusp"
+    },
+    {
+     "name": "Exhume Corpses",
+     "id": "Ruex"
+    }
+   ]
+  },
+  {
+   "id": "utod",
+   "idSource": "liquipedia",
+   "name": "Temple of the Damned",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 155,
+   "lumberCost": 140,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 1100,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Temple of the Damned",
+    "revid": 1025029,
+    "url": "https://liquipedia.net/warcraft/Temple_of_the_Damned"
+   },
+   "requirements": [
+    {
+     "name": "Halls of the Dead",
+     "id": "unp1"
+    },
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [
+    {
+     "name": "Necromancer",
+     "id": "unec"
+    },
+    {
+     "name": "Banshee",
+     "id": "uban"
+    }
+   ],
+   "upgradesTo": [],
+   "unlocks": [],
+   "tier": 2,
+   "researches": [
+    {
+     "name": "Banshee Adept Training",
+     "id": "Ruba"
+    },
+    {
+     "name": "Necromancer Adept Training",
+     "id": "Rune"
+    },
+    {
+     "name": "Skeletal Longevity",
+     "id": "Rusl"
+    },
+    {
+     "name": "Skeletal Mastery",
+     "id": "Rusm"
+    }
+   ]
+  },
+  {
+   "id": "utom",
+   "idSource": "liquipedia",
+   "name": "Tomb of Relics",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 130,
+   "lumberCost": 30,
+   "foodCost": 0,
+   "foodProvided": 0,
+   "buildTimeSec": 60,
+   "hp": 475,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Tomb of Relics",
+    "revid": 977550,
+    "url": "https://liquipedia.net/warcraft/Tomb_of_Relics"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [
+    {
+     "name": "Obsidian Statue",
+     "id": "uobs"
+    }
+   ],
+   "tier": 1,
+   "researches": [],
+   "possiblyStale": {
+    "patches": [
+     "2.0.4"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  },
+  {
+   "id": "uzg1",
+   "idSource": "liquipedia",
+   "name": "Spirit Tower",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 295,
+   "lumberCost": 90,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 35,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Spirit Tower",
+    "revid": 922481,
+    "url": "https://liquipedia.net/warcraft/Spirit_Tower"
+   },
+   "requirements": [
+    {
+     "name": "Graveyard",
+     "id": "ugrv"
+    }
+   ],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "upgradesFrom": {
+    "name": "Ziggurat",
+    "id": "uzig"
+   },
+   "upgradeCost": {
+    "goldCost": 145,
+    "lumberCost": 40,
+    "derived": true
+   },
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "uzg2",
+   "idSource": "liquipedia",
+   "name": "Nerubian Tower",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 250,
+   "lumberCost": 70,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 30,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 1,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Nerubian Tower",
+    "revid": 975029,
+    "url": "https://liquipedia.net/warcraft/Nerubian_Tower"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [],
+   "unlocks": [],
+   "upgradesFrom": {
+    "name": "Ziggurat",
+    "id": "uzig"
+   },
+   "upgradeCost": {
+    "goldCost": 100,
+    "lumberCost": 20,
+    "derived": true
+   },
+   "tier": 1,
+   "researches": []
+  },
+  {
+   "id": "uzig",
+   "idSource": "liquipedia",
+   "name": "Ziggurat",
+   "race": "undead",
+   "type": "building",
+   "goldCost": 150,
+   "lumberCost": 50,
+   "foodCost": 0,
+   "foodProvided": 10,
+   "buildTimeSec": 50,
+   "hp": 600,
+   "armor": 5,
+   "armorType": "fort",
+   "level": 0,
+   "classes": [
+    "undead",
+    "Mechanical"
+   ],
+   "source": {
+    "page": "Ziggurat",
+    "revid": 922492,
+    "url": "https://liquipedia.net/warcraft/Ziggurat"
+   },
+   "requirements": [],
+   "producedBy": [
+    {
+     "name": "Acolyte",
+     "id": "uaco"
+    }
+   ],
+   "trains": [],
+   "upgradesTo": [
+    {
+     "name": "Spirit Tower",
+     "id": "uzg1"
+    },
+    {
+     "name": "Nerubian Tower",
+     "id": "uzg2"
+    }
+   ],
+   "unlocks": [],
+   "tier": 1,
+   "researches": [],
+   "possiblyStale": {
+    "patches": [
+     "2.0.2"
+    ],
+    "reason": "source revision is older than the release of a patch whose balance notes mention this page"
+   }
+  }
+ ]
+}

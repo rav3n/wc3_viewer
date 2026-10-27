@@ -1,0 +1,372 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0a27d01d5ffcb2ad7542c: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0a27d01d5ffcb2ad7542c.w3g",
+  "fileSize": 236402,
+  "sha256": "8d18c24ece10e6ecef23ad455c43a2b8b5f69260d58d4fe37ca6e0410e1a55ee",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 873780,
+  "gameTimeSumMs": 873780,
+  "matchEndMs": 824700,
+  "gameName": "w3c-20-AyZieGO-9N",
+  "map": {
+    "path": "maps\\W3Champions\\5185_w3c_260919_1153_Hammerfall.w3x",
+    "name": "Hammerfall",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "WhiteGave#2401",
+      "team": 0,
+      "color": 4,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 4179,
+      "actionCounts": {
+        "0x10": 136,
+        "0x11": 40,
+        "0x12": 1343,
+        "0x14": 2,
+        "0x16": 652,
+        "0x17": 51,
+        "0x18": 1382,
+        "0x19": 1638,
+        "0x1a": 1638,
+        "0x1b": 5518,
+        "0x61": 2,
+        "0x66": 10,
+        "0x67": 13,
+        "0x77": 1,
+        "0x7a": 945
+      },
+      "apmW3gjs": {
+        "countedActions": 3351,
+        "lastCommandBlockMs": 824460,
+        "apm": 244
+      },
+      "heroes": [
+        {
+          "id": "Ucrl",
+          "firstOrderMs": 71640,
+          "firstSkillMs": 127440,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Udea",
+          "firstOrderMs": 447750,
+          "firstSkillMs": 504720,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 561870,
+          "firstSkillMs": 630420,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 3960,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 5430,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 20970,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 32040,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 55590,
+          "id": "ugrv",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 67650,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67680,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67710,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71640,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71700,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 75060,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 87060,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 102540,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 127440,
+          "id": "AUcb",
+          "type": "skill",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 58
+    },
+    {
+      "pid": 2,
+      "name": "ImbaImba#21889",
+      "team": 1,
+      "color": 3,
+      "raceFlag": "0x20",
+      "race": "RANDOM",
+      "raceResolved": "ORC",
+      "commandBlocks": 3953,
+      "actionCounts": {
+        "0x10": 97,
+        "0x11": 19,
+        "0x12": 1643,
+        "0x13": 5,
+        "0x14": 2,
+        "0x16": 880,
+        "0x17": 219,
+        "0x18": 933,
+        "0x19": 1179,
+        "0x1a": 1179,
+        "0x1b": 3193,
+        "0x61": 2,
+        "0x66": 8,
+        "0x67": 15,
+        "0x77": 1,
+        "0x7a": 512
+      },
+      "apmW3gjs": {
+        "countedActions": 3495,
+        "lastCommandBlockMs": 823800,
+        "apm": 255
+      },
+      "heroes": [
+        {
+          "id": "Ofar",
+          "firstOrderMs": 63661,
+          "firstSkillMs": 128340,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Oshd",
+          "firstOrderMs": 278850,
+          "firstSkillMs": 341130,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Otch",
+          "firstOrderMs": 491910,
+          "firstSkillMs": 564930,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 6180,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 11880,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 21480,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34200,
+          "id": "obar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 43830,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 58920,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 63661,
+          "id": "Ofar",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 63720,
+          "id": "Ofar",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 69570,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 80220,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 94410,
+          "id": "ogru",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 124260,
+          "id": "ostr",
+          "type": "build",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 65
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 824580,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 824700,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 574,
+    "commandBlocksExact": 8132,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0a27d01d5ffcb2ad7542c",
+  "apiWinnerName": "WhiteGave#2401",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0a27d01d5ffcb2ad7542c.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 873.8 s, matchEnd 824.7 s vs api 5430 s (delta header -4556.2 s)"
+    ],
+    "apiDurationInSeconds": 5430,
+    "apiMapName": "Hammerfall"
+  }
+}

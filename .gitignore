@@ -1,0 +1,22 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Local tool settings
+.claude/
+
+# Raw replay drop folder (curated copies live in testdata/replays/)
+Replay_*/
+
+# Node
+node_modules/

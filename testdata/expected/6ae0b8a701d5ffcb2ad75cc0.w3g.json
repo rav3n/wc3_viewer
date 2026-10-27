@@ -1,0 +1,369 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0b8a701d5ffcb2ad75cc0: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0b8a701d5ffcb2ad75cc0.w3g",
+  "fileSize": 416241,
+  "sha256": "2ef74c6900b5da5c2eb08c6d602ee9e9b3dff91b616fa710a12c61d16e8c1b98",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1445311,
+  "gameTimeSumMs": 1445311,
+  "matchEndMs": 1397431,
+  "gameName": "w3c-20-SU2vrZi3op",
+  "map": {
+    "path": "maps\\W3Champions\\44_w3c_260919_1153_AutumnLeaves_v2.0.w3x",
+    "name": "AutumnLeaves_v2.0",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "phoooenix#2725",
+      "team": 0,
+      "color": 3,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 5315,
+      "actionCounts": {
+        "0x10": 146,
+        "0x11": 22,
+        "0x12": 1729,
+        "0x13": 7,
+        "0x14": 8,
+        "0x16": 1004,
+        "0x17": 110,
+        "0x18": 2042,
+        "0x19": 2007,
+        "0x1a": 2007,
+        "0x1b": 8055,
+        "0x61": 7,
+        "0x66": 10,
+        "0x67": 16,
+        "0x68": 9,
+        "0x77": 1,
+        "0x7a": 584
+      },
+      "apmW3gjs": {
+        "countedActions": 4713,
+        "lastCommandBlockMs": 1396500,
+        "apm": 202
+      },
+      "heroes": [
+        {
+          "id": "Udea",
+          "firstOrderMs": 73051,
+          "firstSkillMs": 136171,
+          "skillOrders": 5,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Nngs",
+          "firstOrderMs": 338580,
+          "firstSkillMs": 340411,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 490680,
+          "firstSkillMs": 567901,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 6121,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8100,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22531,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 30780,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 44070,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 62730,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 67680,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 67831,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73051,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73080,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73111,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 73140,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 83701,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 98041,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 101
+    },
+    {
+      "pid": 2,
+      "name": "PoetsPro#2644",
+      "team": 1,
+      "color": 4,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 6049,
+      "actionCounts": {
+        "0x10": 138,
+        "0x11": 46,
+        "0x12": 2756,
+        "0x13": 4,
+        "0x14": 75,
+        "0x16": 1076,
+        "0x17": 136,
+        "0x18": 1323,
+        "0x19": 1351,
+        "0x1a": 1351,
+        "0x1b": 6833,
+        "0x1e": 3,
+        "0x61": 6,
+        "0x66": 11,
+        "0x67": 18,
+        "0x77": 1,
+        "0x7a": 856
+      },
+      "apmW3gjs": {
+        "countedActions": 5214,
+        "lastCommandBlockMs": 1396920,
+        "apm": 224
+      },
+      "heroes": [
+        {
+          "id": "Npal",
+          "firstOrderMs": 136201,
+          "firstSkillMs": 154951,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Nbrn",
+          "firstOrderMs": 364590,
+          "firstSkillMs": 367980,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 4921,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 12780,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 16021,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 17160,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 25650,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 30390,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31711,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 40081,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 43980,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 47490,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 60631,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 69391,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 73711,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 77401,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 109
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1397250,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1397431,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 578,
+    "commandBlocksExact": 11364,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0b8a701d5ffcb2ad75cc0",
+  "apiWinnerName": "PoetsPro#2644",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0b8a701d5ffcb2ad75cc0.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "note: hero order PoetsPro#2644: replay ['Npal', 'Nbrn'] vs api ['Nbrn', 'Npal'] (API не хронологичен)",
+      "duration: header 1445.3 s, matchEnd 1397.431 s vs api 1459 s (delta header -13.7 s)"
+    ],
+    "apiDurationInSeconds": 1459,
+    "apiMapName": "Autumn Leaves v2"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0b2d401d5ffcb2ad75a57: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0b2d401d5ffcb2ad75a57.w3g",
+  "fileSize": 44045,
+  "sha256": "77564e012bb2a106155d41405c9bfcea76cd948e9461cf5de1462d3932dba662",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 240690,
+  "gameTimeSumMs": 240690,
+  "matchEndMs": 191940,
+  "gameName": "w3c-20-0wfnfmHnIu",
+  "map": {
+    "path": "maps\\W3Champions\\5693_w3c_260919_1153_FadingAutumn_v1.3.w3m",
+    "name": "FadingAutumn_v1.3",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "Rubbish#31641",
+      "team": 0,
+      "color": 7,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 248,
+      "actionCounts": {
+        "0x10": 13,
+        "0x11": 5,
+        "0x12": 84,
+        "0x13": 1,
+        "0x16": 81,
+        "0x17": 7,
+        "0x18": 22,
+        "0x19": 44,
+        "0x1a": 44,
+        "0x1b": 166,
+        "0x66": 1,
+        "0x67": 5,
+        "0x77": 1,
+        "0x7a": 71
+      },
+      "apmW3gjs": {
+        "countedActions": 185,
+        "lastCommandBlockMs": 186690,
+        "apm": 59
+      },
+      "heroes": [
+        {
+          "id": "Udre",
+          "firstOrderMs": 82441,
+          "firstSkillMs": 152820,
+          "skillOrders": 1,
+          "skillsLearned": 1
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 3990,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 10111,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31320,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 38910,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 54960,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 70531,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 79620,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 82441,
+          "id": "Udre",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 92550,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 121020,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 139441,
+          "id": "rnec",
+          "type": "item",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 140040,
+          "id": "skul",
+          "type": "item",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 152820,
+          "id": "AUsl",
+          "type": "skill",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 15
+    },
+    {
+      "pid": 2,
+      "name": "DjStopfer#2678",
+      "team": 1,
+      "color": 5,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 430,
+      "actionCounts": {
+        "0x10": 16,
+        "0x11": 6,
+        "0x12": 99,
+        "0x16": 53,
+        "0x17": 4,
+        "0x18": 2,
+        "0x19": 30,
+        "0x1a": 30,
+        "0x1b": 46,
+        "0x66": 1,
+        "0x67": 6,
+        "0x77": 1,
+        "0x7a": 275
+      },
+      "apmW3gjs": {
+        "countedActions": 161,
+        "lastCommandBlockMs": 190381,
+        "apm": 51
+      },
+      "heroes": [
+        {
+          "id": "Ulic",
+          "firstOrderMs": 74190,
+          "firstSkillMs": 132271,
+          "skillOrders": 1,
+          "skillsLearned": 1
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 1170,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5040,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 9540,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 23161,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31890,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 59701,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 64470,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 66720,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 66870,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74190,
+          "id": "Ulic",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74280,
+          "id": "Ulic",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76590,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 88861,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 100890,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 116640,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 22
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 191730,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 191940,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 580,
+    "commandBlocksExact": 678,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0b2d401d5ffcb2ad75a57",
+  "apiWinnerName": "DjStopfer#2678",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0b2d401d5ffcb2ad75a57.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 240.7 s, matchEnd 191.94 s vs api 228 s (delta header +12.7 s)"
+    ],
+    "apiDurationInSeconds": 228,
+    "apiMapName": "Fading Autumn"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0aae101d5ffcb2ad75724: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0aae101d5ffcb2ad75724.w3g",
+  "fileSize": 320151,
+  "sha256": "8ab585964380394b8d6951909fe4a8fb7dd347a8f15e6d4d2168e795641a1742",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1376760,
+  "gameTimeSumMs": 1376760,
+  "matchEndMs": 1328760,
+  "gameName": "w3c-20-yjliw-3Djz",
+  "map": {
+    "path": "maps\\W3Champions\\61_w3c_260919_1153_ShallowGrave_v1.5.w3x",
+    "name": "ShallowGrave_v1.5",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "Labomb#2205",
+      "team": 0,
+      "color": 3,
+      "raceFlag": "0x20",
+      "race": "RANDOM",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 1367,
+      "actionCounts": {
+        "0x10": 98,
+        "0x11": 12,
+        "0x12": 751,
+        "0x13": 2,
+        "0x14": 1,
+        "0x16": 648,
+        "0x19": 341,
+        "0x1a": 341,
+        "0x1b": 911,
+        "0x1e": 3,
+        "0x66": 11,
+        "0x67": 14,
+        "0x77": 1,
+        "0x7a": 178
+      },
+      "apmW3gjs": {
+        "countedActions": 1272,
+        "lastCommandBlockMs": 1326300,
+        "apm": 58
+      },
+      "heroes": [
+        {
+          "id": "Ucrl",
+          "firstOrderMs": 127350,
+          "firstSkillMs": 184830,
+          "skillOrders": 6,
+          "skillsLearned": 6
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 570660,
+          "firstSkillMs": 641760,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        },
+        {
+          "id": "Udea",
+          "firstOrderMs": 603180,
+          "firstSkillMs": 685680,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 5460,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5641,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 10710,
+          "id": "ugrv",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 21720,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 44700,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 57690,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 74430,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 95160,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 107940,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 111930,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 124051,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 127350,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 136470,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 149100,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 160200,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 80
+    },
+    {
+      "pid": 2,
+      "name": "l1onsun#2701",
+      "team": 1,
+      "color": 5,
+      "raceFlag": "0x04",
+      "race": "NIGHT_ELF",
+      "raceResolved": "NIGHT_ELF",
+      "commandBlocks": 2258,
+      "actionCounts": {
+        "0x10": 137,
+        "0x11": 27,
+        "0x12": 1381,
+        "0x13": 11,
+        "0x14": 8,
+        "0x16": 667,
+        "0x17": 8,
+        "0x18": 31,
+        "0x19": 367,
+        "0x1a": 367,
+        "0x1b": 973,
+        "0x1e": 15,
+        "0x61": 1,
+        "0x66": 11,
+        "0x67": 23,
+        "0x77": 1,
+        "0x7a": 307
+      },
+      "apmW3gjs": {
+        "countedActions": 2040,
+        "lastCommandBlockMs": 1327530,
+        "apm": 92
+      },
+      "heroes": [
+        {
+          "id": "Npbm",
+          "firstOrderMs": 141421,
+          "firstSkillMs": 196350,
+          "skillOrders": 6,
+          "skillsLearned": 6
+        },
+        {
+          "id": "Emoo",
+          "firstOrderMs": 322920,
+          "firstSkillMs": 382411,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 330,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5191,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 13981,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 17580,
+          "id": "eaom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 28860,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31801,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 42510,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 56670,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71550,
+          "id": "eate",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 79951,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 90690,
+          "id": "emow",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 97980,
+          "id": "ewsp",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 104851,
+          "id": "earc",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 134
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1328670,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1328760,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 570,
+    "commandBlocksExact": 3625,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0aae101d5ffcb2ad75724",
+  "apiWinnerName": "l1onsun#2701",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0aae101d5ffcb2ad75724.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "note: hero order Labomb#2205: replay ['Ucrl', 'Ulic', 'Udea'] vs api ['Ucrl', 'Udea', 'Ulic'] (API не хронологичен)",
+      "note: hero Labomb#2205 Ulic skills 2 < api level 3 (неизрасходованные очки)",
+      "duration: header 1376.8 s, matchEnd 1328.76 s vs api 1350 s (delta header +26.8 s)"
+    ],
+    "apiDurationInSeconds": 1350,
+    "apiMapName": "Shallow Grave"
+  }
+}

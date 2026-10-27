@@ -1,0 +1,348 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6adf674001d5ffcb2ad70309: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6adf674001d5ffcb2ad70309.w3g",
+  "fileSize": 665685,
+  "sha256": "798070e71c4aa093342faed952b4cc2a76dd37615f1a17526b3e7d1b12fb6491",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 2942101,
+  "gameTimeSumMs": 2942101,
+  "matchEndMs": 2894131,
+  "gameName": "w3c-20-sXgNEyvkvn",
+  "map": {
+    "path": "maps\\W3Champions\\6_w3c_260919_1153_TwistedMeadows_v1.9.w3x",
+    "name": "TwistedMeadows_v1.9",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "Bobat#11668",
+      "team": 0,
+      "color": 4,
+      "raceFlag": "0x02",
+      "race": "ORC",
+      "raceResolved": "ORC",
+      "commandBlocks": 2506,
+      "actionCounts": {
+        "0x10": 213,
+        "0x11": 59,
+        "0x12": 946,
+        "0x13": 5,
+        "0x14": 8,
+        "0x16": 832,
+        "0x17": 46,
+        "0x18": 408,
+        "0x19": 740,
+        "0x1a": 740,
+        "0x1b": 2871,
+        "0x1e": 2,
+        "0x61": 3,
+        "0x66": 10,
+        "0x67": 62,
+        "0x77": 1,
+        "0x7a": 472
+      },
+      "apmW3gjs": {
+        "countedActions": 2255,
+        "lastCommandBlockMs": 2894131,
+        "apm": 47
+      },
+      "heroes": [
+        {
+          "id": "Obla",
+          "firstOrderMs": 71220,
+          "firstSkillMs": 129811,
+          "skillOrders": 10,
+          "skillsLearned": 10
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 5911,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8460,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 8641,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 19920,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 24901,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 40141,
+          "id": "ofor",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 44431,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 70441,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71220,
+          "id": "Obla",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 77251,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 92311,
+          "id": "ovln",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 94441,
+          "id": "ovln",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 104311,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 112861,
+          "id": "owtw",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 129811,
+          "id": "AOwk",
+          "type": "skill",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 184
+    },
+    {
+      "pid": 2,
+      "name": "Butzenberg#2786",
+      "team": 1,
+      "color": 7,
+      "raceFlag": "0x02",
+      "race": "ORC",
+      "raceResolved": "ORC",
+      "commandBlocks": 3902,
+      "actionCounts": {
+        "0x10": 188,
+        "0x11": 63,
+        "0x12": 2214,
+        "0x13": 13,
+        "0x14": 28,
+        "0x16": 1097,
+        "0x17": 81,
+        "0x18": 238,
+        "0x19": 652,
+        "0x1a": 655,
+        "0x1b": 3007,
+        "0x1e": 7,
+        "0x61": 3,
+        "0x66": 8,
+        "0x67": 72,
+        "0x77": 1,
+        "0x7a": 563
+      },
+      "apmW3gjs": {
+        "countedActions": 3560,
+        "lastCommandBlockMs": 2893501,
+        "apm": 74
+      },
+      "heroes": [
+        {
+          "id": "Ofar",
+          "firstOrderMs": 67171,
+          "firstSkillMs": 124260,
+          "skillOrders": 8,
+          "skillsLearned": 8
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 31,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 5461,
+          "id": "oalt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 7291,
+          "id": "otrb",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 31561,
+          "id": "obar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 36721,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 46081,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 57331,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 64111,
+          "id": "opeo",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 189
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 2893951,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 2894131,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 577,
+    "commandBlocksExact": 6408,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6adf674001d5ffcb2ad70309",
+  "apiWinnerName": "Bobat#11668",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6adf674001d5ffcb2ad70309.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "note: hero Butzenberg#2786 Ofar skills 8 < api level 9 (неизрасходованные очки)",
+      "duration: header 2942.1 s, matchEnd 2894.131 s vs api 2914 s (delta header +28.1 s)"
+    ],
+    "apiDurationInSeconds": 2914,
+    "apiMapName": "Twisted Meadows"
+  }
+}

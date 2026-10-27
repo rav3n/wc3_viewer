@@ -1,0 +1,373 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0abc501d5ffcb2ad75774: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0abc501d5ffcb2ad75774.w3g",
+  "fileSize": 367334,
+  "sha256": "316a30f2e0c30872fcb4e1eb4123c7755108bb580027cc6021aa84d7957a15ca",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1349191,
+  "gameTimeSumMs": 1349191,
+  "matchEndMs": 1302780,
+  "gameName": "w3c-20-BM2qo4xh5s",
+  "map": {
+    "path": "maps\\W3Champions\\4_w3c_260919_1153_NorthernIsles_v1.3.w3x",
+    "name": "NorthernIsles_v1.3",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "BlOoDy#11750",
+      "team": 0,
+      "color": 4,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 5396,
+      "actionCounts": {
+        "0x10": 168,
+        "0x11": 26,
+        "0x12": 1993,
+        "0x13": 2,
+        "0x14": 10,
+        "0x16": 1015,
+        "0x17": 122,
+        "0x18": 1704,
+        "0x19": 1813,
+        "0x1a": 1813,
+        "0x1b": 10874,
+        "0x61": 6,
+        "0x66": 10,
+        "0x67": 25,
+        "0x77": 1,
+        "0x7a": 744
+      },
+      "apmW3gjs": {
+        "countedActions": 4726,
+        "lastCommandBlockMs": 1301941,
+        "apm": 218
+      },
+      "heroes": [
+        {
+          "id": "Ucrl",
+          "firstOrderMs": 77731,
+          "firstSkillMs": 143460,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Udea",
+          "firstOrderMs": 76140,
+          "firstSkillMs": 514500,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 628651,
+          "firstSkillMs": 744960,
+          "skillOrders": 2,
+          "skillsLearned": 2
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 2220,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 4050,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 5820,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8730,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 23820,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 32280,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 32400,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 46830,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 63510,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 68490,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68611,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76140,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 77731,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 86641,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 95910,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 118
+    },
+    {
+      "pid": 2,
+      "name": "CallMeMaster#2711",
+      "team": 1,
+      "color": 1,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 2841,
+      "actionCounts": {
+        "0x10": 120,
+        "0x11": 35,
+        "0x12": 1418,
+        "0x13": 8,
+        "0x14": 1,
+        "0x16": 833,
+        "0x17": 16,
+        "0x18": 380,
+        "0x19": 803,
+        "0x1a": 803,
+        "0x1b": 2347,
+        "0x61": 4,
+        "0x66": 11,
+        "0x67": 19,
+        "0x77": 1,
+        "0x7a": 358
+      },
+      "apmW3gjs": {
+        "countedActions": 2531,
+        "lastCommandBlockMs": 1301071,
+        "apm": 117
+      },
+      "heroes": [
+        {
+          "id": "Ucrl",
+          "firstOrderMs": 71310,
+          "firstSkillMs": 131700,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Udea",
+          "firstOrderMs": 411721,
+          "firstSkillMs": 474061,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 591421,
+          "firstSkillMs": 648660,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 30,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 2550,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 20970,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 29550,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 46050,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 65040,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71310,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 71460,
+          "id": "Ucrl",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74821,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 86400,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 101490,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 121860,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 131700,
+          "id": "AUcb",
+          "type": "skill",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 134581,
+          "id": "rnec",
+          "type": "item",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 84
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1302601,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1302780,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 582,
+    "commandBlocksExact": 8237,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0abc501d5ffcb2ad75774",
+  "apiWinnerName": "BlOoDy#11750",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0abc501d5ffcb2ad75774.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 1349.2 s, matchEnd 1302.78 s vs api 1334 s (delta header +15.2 s)"
+    ],
+    "apiDurationInSeconds": 1334,
+    "apiMapName": "Northern Isles"
+  }
+}

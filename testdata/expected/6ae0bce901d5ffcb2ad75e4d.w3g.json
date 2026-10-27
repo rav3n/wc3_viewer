@@ -1,0 +1,211 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0bce901d5ffcb2ad75e4d: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0bce901d5ffcb2ad75e4d.w3g",
+  "fileSize": 14713,
+  "sha256": "7c50c3f1f4333b035258a46f9b8ba01971a327ac316766e14b29384322d8f370",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 111420,
+  "gameTimeSumMs": 111420,
+  "matchEndMs": 63480,
+  "gameName": "w3c-20-SXQmhrpfkP",
+  "map": {
+    "path": "maps\\W3Champions\\61_w3c_260919_1153_ShallowGrave_v1.5.w3x",
+    "name": "ShallowGrave_v1.5",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "DjStopfer#2678",
+      "team": 0,
+      "color": 1,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 61,
+      "actionCounts": {
+        "0x10": 2,
+        "0x11": 3,
+        "0x12": 14,
+        "0x16": 13,
+        "0x19": 7,
+        "0x1a": 7,
+        "0x1b": 9,
+        "0x67": 3,
+        "0x77": 1,
+        "0x7a": 35
+      },
+      "apmW3gjs": {
+        "countedActions": 30,
+        "lastCommandBlockMs": 42810,
+        "apm": 42
+      },
+      "heroes": [],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 4500,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 8160,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22470,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 41971,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 5
+    },
+    {
+      "pid": 2,
+      "name": "CrossRoadBag#1345",
+      "team": 1,
+      "color": 7,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 71,
+      "actionCounts": {
+        "0x10": 3,
+        "0x11": 4,
+        "0x12": 20,
+        "0x14": 1,
+        "0x16": 39,
+        "0x17": 2,
+        "0x19": 20,
+        "0x1a": 20,
+        "0x1b": 27,
+        "0x67": 5,
+        "0x77": 1,
+        "0x7a": 19
+      },
+      "apmW3gjs": {
+        "countedActions": 55,
+        "lastCommandBlockMs": 62640,
+        "apm": 53
+      },
+      "heroes": [],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 30,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 2610,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 5160,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22440,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 30090,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 30270,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 59671,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        }
+      ],
+      "buildOrderTotal": 7
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 63240,
+      "pid": 1,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 63480,
+      "pid": 2,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 2,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 586,
+    "commandBlocksExact": 132,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0bce901d5ffcb2ad75e4d",
+  "apiWinnerName": "CrossRoadBag#1345",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0bce901d5ffcb2ad75e4d.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 111.4 s, matchEnd 63.48 s vs api 89 s (delta header +22.4 s)"
+    ],
+    "apiDurationInSeconds": 89,
+    "apiMapName": "Shallow Grave"
+  }
+}

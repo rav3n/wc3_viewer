@@ -1,0 +1,374 @@
+{
+  "source": {
+    "generator": "gen_expected.py (Python, независим от Kotlin-кода; основан на прототипе w3g_probe.py/actions2.py)",
+    "classification": "w3gjs mappings.ts (MIT): units/buildings/upgrades/items/abilityToHero",
+    "apmRule": "w3gjs: см. docs/testing/TEST_STRATEGY.md §APM",
+    "externallyVerified": [
+      "W3Champions API /api/matches/6ae0b93701d5ffcb2ad75ce9: players, race, heroes(set; skillsLearned<=level), winner, map"
+    ]
+  },
+  "file": "6ae0b93701d5ffcb2ad75ce9.w3g",
+  "fileSize": 404330,
+  "sha256": "5525551a680cf13eb9bfa2d9247e907cf5c24566764a8d56e711681db0a67305",
+  "product": "W3XP",
+  "version": 10200,
+  "build": 7003,
+  "patch": "3.00",
+  "durationMs": 1577941,
+  "gameTimeSumMs": 1577941,
+  "matchEndMs": 1529611,
+  "gameName": "w3c-20-Hjqhdtid-M",
+  "map": {
+    "path": "maps\\W3Champions\\54_w3c_260919_1153_Tidehunters_v1.2.w3x",
+    "name": "Tidehunters_v1.2",
+    "creator": "FLO"
+  },
+  "reforgedChunks": 9,
+  "players": [
+    {
+      "pid": 1,
+      "name": "굴렁굴렁굴렁쇠#31873",
+      "team": 0,
+      "color": 0,
+      "raceFlag": "0x20",
+      "race": "RANDOM",
+      "raceResolved": "HUMAN",
+      "commandBlocks": 3326,
+      "actionCounts": {
+        "0x10": 147,
+        "0x11": 50,
+        "0x12": 1161,
+        "0x13": 6,
+        "0x14": 4,
+        "0x16": 1433,
+        "0x17": 85,
+        "0x18": 415,
+        "0x19": 920,
+        "0x1a": 920,
+        "0x1b": 5259,
+        "0x1e": 2,
+        "0x61": 9,
+        "0x66": 13,
+        "0x67": 43,
+        "0x77": 1,
+        "0x7a": 656
+      },
+      "apmW3gjs": {
+        "countedActions": 2764,
+        "lastCommandBlockMs": 1528921,
+        "apm": 108
+      },
+      "heroes": [
+        {
+          "id": "Hpal",
+          "firstOrderMs": 68462,
+          "firstSkillMs": 125131,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Hmkg",
+          "firstOrderMs": 399961,
+          "firstSkillMs": 456841,
+          "skillOrders": 5,
+          "skillsLearned": 5
+        },
+        {
+          "id": "Hamg",
+          "firstOrderMs": 893371,
+          "firstSkillMs": 950341,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 1320,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 1471,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 6061,
+          "id": "halt",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 11641,
+          "id": "hbar",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 16230,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 23280,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34771,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 43501,
+          "id": "hhou",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 52261,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 61231,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 68462,
+          "id": "Hpal",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 74551,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 99121,
+          "id": "hbla",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 100470,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 104071,
+          "id": "hpea",
+          "type": "train",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 151
+    },
+    {
+      "pid": 2,
+      "name": "todlong#3318",
+      "team": 1,
+      "color": 4,
+      "raceFlag": "0x08",
+      "race": "UNDEAD",
+      "raceResolved": "UNDEAD",
+      "commandBlocks": 3796,
+      "actionCounts": {
+        "0x10": 128,
+        "0x11": 16,
+        "0x12": 1444,
+        "0x13": 6,
+        "0x14": 12,
+        "0x16": 1737,
+        "0x17": 39,
+        "0x18": 534,
+        "0x19": 1125,
+        "0x1a": 1125,
+        "0x1b": 4722,
+        "0x1e": 1,
+        "0x66": 10,
+        "0x67": 16,
+        "0x77": 1,
+        "0x7a": 379
+      },
+      "apmW3gjs": {
+        "countedActions": 3161,
+        "lastCommandBlockMs": 1527030,
+        "apm": 124
+      },
+      "heroes": [
+        {
+          "id": "Udea",
+          "firstOrderMs": 62371,
+          "firstSkillMs": 121621,
+          "skillOrders": 4,
+          "skillsLearned": 4
+        },
+        {
+          "id": "Ulic",
+          "firstOrderMs": 326221,
+          "firstSkillMs": 428341,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        },
+        {
+          "id": "Ucrl",
+          "firstOrderMs": 500341,
+          "firstSkillMs": 569820,
+          "skillOrders": 3,
+          "skillsLearned": 3
+        }
+      ],
+      "buildOrderFirst15": [
+        {
+          "timeMs": 1501,
+          "id": "uaod",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 4531,
+          "id": "usep",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 9151,
+          "id": "uzig",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 22411,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 34051,
+          "id": "uaco",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 54271,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 55951,
+          "id": "utom",
+          "type": "build",
+          "action": "0x11"
+        },
+        {
+          "timeMs": 62371,
+          "id": "Udea",
+          "type": "hero",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 66331,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 76351,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 93151,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 108541,
+          "id": "ugho",
+          "type": "train",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 120000,
+          "id": "rnec",
+          "type": "item",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 121621,
+          "id": "AUdc",
+          "type": "skill",
+          "action": "0x10"
+        },
+        {
+          "timeMs": 149311,
+          "id": "uzg2",
+          "type": "build",
+          "action": "0x10"
+        }
+      ],
+      "buildOrderTotal": 89
+    }
+  ],
+  "observers": [
+    {
+      "pid": 24,
+      "name": "FLO",
+      "team": 24
+    }
+  ],
+  "leaves": [
+    {
+      "timeMs": 1529521,
+      "pid": 2,
+      "reason": "0x07",
+      "result": "0x07"
+    },
+    {
+      "timeMs": 1529611,
+      "pid": 1,
+      "reason": "0x09",
+      "result": "0x09"
+    }
+  ],
+  "winnerPid": 1,
+  "chatMessages": 0,
+  "parse": {
+    "gameDataOffset": 601,
+    "commandBlocksExact": 7122,
+    "commandBlocksBroken": 0,
+    "unknownActions": {}
+  },
+  "w3cMatchId": "6ae0b93701d5ffcb2ad75ce9",
+  "apiWinnerName": "굴렁굴렁굴렁쇠#31873",
+  "w3cApiCheck": {
+    "apiFile": "testdata/w3c-api/6ae0b93701d5ffcb2ad75ce9.json",
+    "matched": [
+      "players",
+      "race",
+      "heroes(set; skillsLearned<=level)",
+      "winner",
+      "map"
+    ],
+    "notes": [
+      "duration: header 1577.9 s, matchEnd 1529.611 s vs api 1673 s (delta header -95.1 s)"
+    ],
+    "apiDurationInSeconds": 1673,
+    "apiMapName": "Tidehunters"
+  }
+}
